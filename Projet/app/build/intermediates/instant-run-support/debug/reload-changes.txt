@@ -1,0 +1,2 @@
+CHANGED,C:\AndroidStudioProjects\JeuBateau\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\MainActivity$override.class
+CHANGED,C:\AndroidStudioProjects\JeuBateau\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

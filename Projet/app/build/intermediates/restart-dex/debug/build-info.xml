@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="19343764351420"
+    token="-3975657506365695418" >
+
+    <task
+        name="javac"
+        duration="90" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="28" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="C:\AndroidStudioProjects\JeuBateau\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+
+    <build timestamp="18565701574380" >
+        <artifact
+            location="C:\AndroidStudioProjects\JeuBateau\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="19168747635350" >
+        <artifact
+            location="C:\AndroidStudioProjects\JeuBateau\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="19343764351420" >
+        <artifact
+            location="C:\AndroidStudioProjects\JeuBateau\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="380952559093989"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="C:\AndroidStudioProjects\MyGame\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
