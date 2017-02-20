@@ -12,7 +12,7 @@ public abstract class DynamicGameObject extends CollidableGameObject{
 
     public abstract void update(float gyro);
 
-    public void checkCollision(CollidableGameObject cgo) {
+    public boolean checkCollision(CollidableGameObject cgo) {
         int w = (int)(0.5 * (width + cgo.getWidth()));
         int h = (int)(0.5 * (height + cgo.getHeight()));
 
@@ -34,6 +34,8 @@ public abstract class DynamicGameObject extends CollidableGameObject{
                 x = cgo.getX() + cgo.getWidth();
             else
                 y = cgo.getY() - height;
+            return true;
         }
+        return false;
     }
 }

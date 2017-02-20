@@ -14,6 +14,7 @@ import android.view.View;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.logging.Level;
 
 public class GameView extends SurfaceView implements Runnable {
@@ -72,7 +73,17 @@ public class GameView extends SurfaceView implements Runnable {
         dynamicArray.add(player);
         gameObjectArray.add(player);
 
-        CollidableGameObject rock = new Rock(context, 300, 500, 200, 200);
+        Random random = new Random();
+
+        for(int i = 0; i < 100; i++)
+        {
+            int w = (int)((random.nextFloat() % 2 + 0.5) * 100);
+            addRock(new Rock(context,random.nextInt(700),-200 * i,w,w));
+        }
+    }
+
+    private void addRock(Rock rock)
+    {
         collidableArray.add(rock);
         gameObjectArray.add(rock);
     }
@@ -106,7 +117,7 @@ public class GameView extends SurfaceView implements Runnable {
             gyroChanged = false;
         }
 
-        //scrollY = player.getY() + SCREEN_HEIGHT - 500;
+        scrollY = player.getY() - SCREEN_HEIGHT + 500;
         framePassed++;
     }
 
@@ -114,7 +125,7 @@ public class GameView extends SurfaceView implements Runnable {
 
         if (surfaceHolder.getSurface().isValid()) {
             canvas = surfaceHolder.lockCanvas();
-            canvas.drawColor(Color.BLACK);
+            canvas.drawColor(Color.rgb(69,160,204));
 
             for(int i = 0; i < gameObjectArray.size(); i++) {
                 GameObject gameObject = gameObjectArray.get(i);

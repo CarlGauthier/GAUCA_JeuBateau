@@ -450,8 +450,9 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f020047
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020048
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020049
 int drawable abc_textfield_search_material 0x7f02004a
-int drawable notification_template_icon_bg 0x7f02004c
-int drawable terry 0x7f02004b
+int drawable notification_template_icon_bg 0x7f02004d
+int drawable rock 0x7f02004b
+int drawable terry 0x7f02004c
 int id action0 0x7f0c0051
 int id action_bar 0x7f0c0041
 int id action_bar_activity_content 0x7f0c0000
@@ -487,6 +488,7 @@ int id end 0x7f0c001a
 int id end_padder 0x7f0c005d
 int id expand_activities_button 0x7f0c0025
 int id expanded_menu 0x7f0c0038
+int id gameView 0x7f0c0050
 int id home 0x7f0c0004
 int id homeAsUp 0x7f0c000d
 int id icon 0x7f0c0029
@@ -541,7 +543,6 @@ int id time 0x7f0c0057
 int id title 0x7f0c002a
 int id title_template 0x7f0c002f
 int id topPanel 0x7f0c002e
-int id txt 0x7f0c0050
 int id up 0x7f0c0008
 int id useLogo 0x7f0c0012
 int id withText 0x7f0c0020
