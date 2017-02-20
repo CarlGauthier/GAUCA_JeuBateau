@@ -1,70 +1,75 @@
 package dicjinfo.mygame;
 
+import android.app.ActivityManager;
+import android.content.Context;
+import android.content.pm.ConfigurationInfo;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.os.CountDownTimer;
+import android.opengl.GLSurfaceView;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements SensorEventListener {
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity implements SensorEventListener{
+
+    boolean baseSet = false;
+    private GameView gameView;
 
     SensorManager sensorManager;
     Sensor gyro;
-    float z;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        fullscreenInit();
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-        gyro = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
-        sensorManager.registerListener(this, gyro, SensorManager.SENSOR_DELAY_FASTEST);
-        gameloop();
-    }
-
-    @Override
-    public final void onAccuracyChanged(Sensor sensor, int accuracy) {
-
+        gyro = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
+        Display display = getWindowManager().getDefaultDisplay();
+        gameView = new GameView(this, display.getWidth(), display.getHeight());
+        int width = display.getWidth();  // deprecated
+        int height = display.getHeight();  // deprecated
+        setContentView(gameView);
     }
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-
-        /*
-        if (event.sensor.getType() == Sensor.TYPE_GYROSCOPE) {
-            z += event.values[2];
-
-            String str = Float.toString(z);
-            TextView txtv = (TextView)findViewById(R.id.txt);
-            txtv.setText(str);
+        float z = 0;
+        if (event.sensor.getType() == Sensor.TYPE_ORIENTATION)
+            z = event.values[2];
+        if(!baseSet) {
+            baseSet = true;
+            gameView.setBaseGyro(z);
         }
-        */
+        gameView.updateGyroMovement(z);
     }
 
-    private void gameloop() {
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
-        final long DELAY = 1000/60;
-        while(true) {
-
-            try {
-                Thread.sleep(DELAY);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
     }
 
-    private void fullscreenInit() {
+    @Override
+    protected void onPause() {
+        sensorManager.unregisterListener(this, gyro);
+        super.onPause();
+        gameView.pause();
+    }
 
-        View decorView = getWindow().getDecorView();
-        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                | View.SYSTEM_UI_FLAG_FULLSCREEN;
-        decorView.setSystemUiVisibility(uiOptions);
+    @Override
+    protected void onResume() {
+        baseSet = false;
+        sensorManager.registerListener(this, gyro, SensorManager.SENSOR_DELAY_UI);
+        super.onResume();
+        gameView.resume();
     }
 }
