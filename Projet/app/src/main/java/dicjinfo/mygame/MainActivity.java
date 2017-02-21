@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             baseSet = true;
             gameView.setBaseGyro(z);
         }
-        gameView.updateGyroMovement(z);
+        gameView.updateGyroDifference(z);
     }
 
     @Override

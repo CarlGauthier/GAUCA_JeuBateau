@@ -8,30 +8,34 @@ public abstract class CollidableGameObject extends GameObject implements IDynami
         super(drawingId, x, y, width, height, solid);
     }
 
-    public boolean checkCollision(GameObject cgo) {
-        int w = (int)(0.5 * (width + cgo.getWidth()));
-        int h = (int)(0.5 * (height + cgo.getHeight()));
+    public void checkCollision(GameObject gameObject) {
+        int w = (int)(0.5 * (width + gameObject.getWidth()));
+        int h = (int)(0.5 * (height + gameObject.getHeight()));
 
-        int dx = (int)((width / 2 + x) - (cgo.getWidth() / 2 + cgo.getX()));
-        int dy = (int)((height / 2 + y) - (cgo.getHeight() / 2 + cgo.getY()));
+        int dx = (int)((width / 2 + x) - (gameObject.getWidth() / 2 + gameObject.getX()));
+        int dy = (int)((height / 2 + y) - (gameObject.getHeight() / 2 + gameObject.getY()));
 
         if (Math.abs(dx) < w && Math.abs(dy) < h)
         {
-            float wy = w * dy;
-            float hx = h * dx;
+            if(gameObject.isSolid())
+            {
+                float wy = w * dy;
+                float hx = h * dx;
 
-            if (wy > hx)
-                if (wy > -hx)
-                    y = cgo.getY() + cgo.getHeight();
+                if (wy > hx)
+                    if (wy > -hx)
+                        y = gameObject.getY() + gameObject.getHeight();
+                    else
+                        x = gameObject.getX() - width;
                 else
-                    x = cgo.getX() - width;
-            else
-            if (wy > -hx)
-                x = cgo.getX() + cgo.getWidth();
-            else
-                y = cgo.getY() - height;
-            return true;
+                if (wy > -hx)
+                    x = gameObject.getX() + gameObject.getWidth();
+                else
+                    y = gameObject.getY() - height;
+            }
+            onCollision(gameObject);
         }
-        return false;
     }
+
+    public abstract void onCollision(GameObject gameObject);
 }

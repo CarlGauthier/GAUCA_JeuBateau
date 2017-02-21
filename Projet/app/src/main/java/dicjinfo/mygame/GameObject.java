@@ -6,7 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
-public class GameObject {
+public abstract class GameObject {
 
     public float getY() {
         return y;

@@ -32,6 +32,12 @@
         <uses-feature
             android:name="android.hardware.sensor.gyroscope"
             android:required="true" />
+
+        <activity
+            android:name="dicjinfo.mygame.GameActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_game"
+            android:theme="@style/FullscreenTheme" />
     </application>
 
 </manifest>

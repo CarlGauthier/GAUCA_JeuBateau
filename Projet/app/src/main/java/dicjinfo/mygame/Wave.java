@@ -1,8 +1,5 @@
 package dicjinfo.mygame;
 
-/**
- * Created by utilisateur on 2017-02-20.
- */
 public class Wave extends GameObject implements IDynamic {
 
     public Wave(float x, float y) {
@@ -11,10 +8,10 @@ public class Wave extends GameObject implements IDynamic {
 
     @Override
     public void update() {
-        width += 10;
-        height += 10;
-        x -= 5;
-        y -= 5;
+        width += 8;
+        height += 8;
+        x -= 4;
+        y -= 4;
         opacity -= 13;
         if(opacity < 0)
             living = false;

@@ -48,14 +48,15 @@ public class GameView extends SurfaceView implements Runnable {
     private float scrollY = 0;
 
     private float gyroMovement = 0;
+    private float gyroBase;
     public void setBaseGyro(float baseGyro) {
-        this.baseGyro = baseGyro;
+        this.gyroBase = baseGyro;
     }
-    private float baseGyro;
     boolean gyroChanged;
 
-    public void updateGyroMovement(float gyroMovement) {
-        this.gyroMovement = baseGyro - gyroMovement;
+    public void updateGyroDifference(float gyroPosition) {
+
+        this.gyroMovement = gyroBase - gyroPosition;
     }
 
     public GameView(Context context, int screenWidth, int screenHeight) {
@@ -114,7 +115,7 @@ public class GameView extends SurfaceView implements Runnable {
 
         player.setGyroMovement(gyroMovement);
         waveFrameCount++;
-        if(waveFrameCount > 3)
+        if(waveFrameCount > 2)
         {
             Wave wave = new Wave(player.getX() + player.getWidth() / 2, player.getY() + player.getHeight() / 2);
             gameObjectArray.add(2, wave);
@@ -132,12 +133,10 @@ public class GameView extends SurfaceView implements Runnable {
             for (int j = 0; j < gameObjectArray.size(); j++)
             {
                 GameObject gameObject = gameObjectArray.get(j);
-                if(gameObject.isSolid())
-                {
                     if(cgo == gameObject)
                         continue;
                     cgo.checkCollision(gameObjectArray.get(j));
-                }
+
             }
         }
         if(gyroChanged) {
