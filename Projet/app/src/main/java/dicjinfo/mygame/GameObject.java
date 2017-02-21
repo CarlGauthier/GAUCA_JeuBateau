@@ -20,27 +20,36 @@ public class GameObject {
 
     public float getHeight() { return height; }
 
-    public Bitmap getSprite() {
-        return sprite;
+    public int getDrawableId() { return drawableId; }
+
+    public int getOpacity() {
+        return opacity;
     }
 
+    public boolean isLiving() {
+        return living;
+    }
+
+    public boolean isSolid() { return solid; }
+
+    private int drawableId;
+
+    protected int opacity;
     protected float x, y;
     protected float width, height;
-
     protected boolean solid;
 
-    private Bitmap sprite;
+    protected boolean living;
 
-    public boolean isSolid() {
-        return solid;
-    }
+    public GameObject(int drawableId, float x, float y, float width, float height, boolean solid) {
 
-    public GameObject(int id, float x, float y, float width, float height, boolean solid) {
-        //sprite = BitmapFactory.decodeResource(context.getResources(), id);
+        this.drawableId = drawableId;
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
         this.solid = solid;
+        living = true;
+        opacity = 255;
     }
 }

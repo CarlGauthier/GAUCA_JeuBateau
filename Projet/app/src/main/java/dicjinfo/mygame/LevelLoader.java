@@ -12,10 +12,9 @@ import java.util.ArrayList;
 
 public class LevelLoader {
 
-    XmlPullParser parser;
+    /*XmlPullParser parser;
 
     public LevelLoader(Context context, ArrayList<GameObject> gameObjectArray, ArrayList<CollidableGameObject> collidableArray, ArrayList<DynamicGameObject> dynamicArray) {
-        /*
         XmlPullParserFactory pullParserFactory;
         try {
             pullParserFactory = XmlPullParserFactory.newInstance();
@@ -27,6 +26,5 @@ public class LevelLoader {
 
         } catch (XmlPullParserException e) {
         }
-        */
-    }
+    }*/
 }

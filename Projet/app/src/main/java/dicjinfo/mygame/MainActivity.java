@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         gyro = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         Display display = getWindowManager().getDefaultDisplay();
         gameView = new GameView(this, display.getWidth(), display.getHeight());
-        int width = display.getWidth();  // deprecated
-        int height = display.getHeight();  // deprecated
+        int width = display.getWidth();
+        int height = display.getHeight();
         setContentView(gameView);
     }
 
