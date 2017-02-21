@@ -10,6 +10,8 @@ public class Player extends CollidableGameObject {
 
     float velX, velY;
     float gyroMovement;
+    int animationFrame = 0;
+    boolean invincible = false;
 
     public Player() {
         super(R.drawable.terry, 400, 0, 125, 260, true);
@@ -26,6 +28,24 @@ public class Player extends CollidableGameObject {
         checkVelLimits();
         x += velX + gyroMovement;
         y += velY;
+
+        if(invincible) {
+            animationFrame++;
+            if(animationFrame % 5 == 0)
+            {
+                if(animationFrame % 10 == 0)
+                    opacity = 255;
+                else
+                    opacity = 0;
+            }
+            if(animationFrame > 120)
+            {
+                invincible = false;
+                animationFrame = 0;
+            }
+        }
+
+        checkBound();
     }
 
     private void checkVelLimits() {
@@ -40,6 +60,13 @@ public class Player extends CollidableGameObject {
             velY = -20;
     }
 
+    private void checkBound() {
+        if(x > 1080 - width)
+            x = 1080 - width;
+        if(x < 0)
+            x = 0;
+    }
+
     @Override
     public void onCollision(GameObject gameObject)
     {
@@ -49,6 +76,8 @@ public class Player extends CollidableGameObject {
             int dy = (int)((height / 2 + y) - (gameObject.getHeight() / 2 + gameObject.getY()));
             velX += dx / 2;
             velY += dy / 2;
+            invincible = true;
+            opacity = 0;
         }
     }
 }

@@ -15,5 +15,6 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:backgroundTint="#ffd700"
-        android:text="JOUER"/>
+        android:text="JOUER"
+        android:onClick="onClick"/>
 </LinearLayout>
