@@ -6,6 +6,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
+import java.util.ArrayList;
+
 public abstract class GameObject {
 
     public float getY() {
@@ -26,11 +28,29 @@ public abstract class GameObject {
         return opacity;
     }
 
-    public boolean isLiving() {
-        return living;
+    public boolean isSolid() { return solid; }
+
+    public static ArrayList<GameObject> getGameObjectArray() {
+        return gameObjectArray;
     }
 
-    public boolean isSolid() { return solid; }
+    public static ArrayList<IDynamic> getDynamicArray() {
+        return dynamicArray;
+    }
+
+    public static ArrayList<CollidableGameObject> getCollidableArray() {
+        return collidableArray;
+    }
+
+    static protected ArrayList<GameObject> gameObjectArray;
+    static protected ArrayList<CollidableGameObject> collidableArray;
+    static protected ArrayList<IDynamic> dynamicArray;
+
+    static {
+        gameObjectArray = new ArrayList<GameObject>();
+        collidableArray = new ArrayList<CollidableGameObject>();
+        dynamicArray = new ArrayList<IDynamic>();
+    }
 
     private int drawableId;
 
@@ -38,8 +58,6 @@ public abstract class GameObject {
     protected float x, y;
     protected float width, height;
     protected boolean solid;
-
-    protected boolean living;
 
     public GameObject(int drawableId, float x, float y, float width, float height, boolean solid) {
 
@@ -49,7 +67,6 @@ public abstract class GameObject {
         this.width = width;
         this.height = height;
         this.solid = solid;
-        living = true;
         opacity = 255;
     }
 }

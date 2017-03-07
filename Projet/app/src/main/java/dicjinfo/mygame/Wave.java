@@ -13,7 +13,9 @@ public class Wave extends GameObject implements IDynamic {
         x -= 4;
         y -= 4;
         opacity -= 13;
-        if(opacity < 0)
-            living = false;
+        if(opacity < 0) {
+            gameObjectArray.remove(this);
+            dynamicArray.remove(this);
+        }
     }
 }

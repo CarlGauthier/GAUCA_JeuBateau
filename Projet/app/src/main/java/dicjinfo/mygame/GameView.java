@@ -26,12 +26,6 @@ public class GameView extends SurfaceView implements Runnable {
     private final int SCREEN_WIDTH;
     private final int SCREEN_HEIGHT;
 
-    private ArrayList<GameObject> gameObjectArray;
-    private ArrayList<CollidableGameObject> collidableArray;
-    private ArrayList<IDynamic> dynamicArray;
-
-    private int waveFrameCount = 0;
-
     private HashMap<Integer, Bitmap> spriteMap;
 
     private Player player;
@@ -52,7 +46,6 @@ public class GameView extends SurfaceView implements Runnable {
     public void setBaseGyro(float baseGyro) {
         this.gyroBase = baseGyro;
     }
-    boolean gyroChanged;
 
     public void updateGyroDifference(float gyroPosition) {
 
@@ -74,27 +67,17 @@ public class GameView extends SurfaceView implements Runnable {
 
         //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
 
-        gameObjectArray = new ArrayList<GameObject>();
-        collidableArray = new ArrayList<CollidableGameObject>();
-        dynamicArray = new ArrayList<IDynamic>();
-
         Random random = new Random();
 
-        for(int i = 0; i < 100; i++)
-        {
+        for(int i = 0; i < 100; i++) {
             int w = (int)((random.nextFloat() % 4 + 0.5) * 100);
-            addRock(new Rock(random.nextInt(700),-200 * i,w,w));
+            Rock rock = new Rock(random.nextInt(1000),-200 * i,w,w);
+            GameObject.getGameObjectArray().add(rock);
         }
 
         player = new Player();
-        dynamicArray.add(player);
-        collidableArray.add(player);
-        gameObjectArray.add(player);
-    }
-
-    private void addRock(Rock rock)
-    {
-        gameObjectArray.add(rock);
+        GameObject.getGameObjectArray().add(player);
+        GameObject.getDynamicArray().add(player);
     }
 
     @Override
@@ -114,51 +97,24 @@ public class GameView extends SurfaceView implements Runnable {
     private void update() {
 
         player.setGyroMovement(gyroMovement);
-        waveFrameCount++;
-        if(waveFrameCount > 2)
-        {
-            Wave wave = new Wave(player.getX() + player.getWidth() / 2, player.getY() + player.getHeight() / 2);
-            gameObjectArray.add(2, wave);
-            dynamicArray.add(wave);
-            waveFrameCount = 0;
-        }
 
-        for(int i = 0; i < dynamicArray.size(); i++) {
-            IDynamic dgo = dynamicArray.get(i);
+        for(int i = 0; i < GameObject.getDynamicArray().size(); i++) {
+            IDynamic dgo = GameObject.getDynamicArray().get(i);
             dgo.update();
         }
-        for(int i = 0; i < collidableArray.size(); i++)
+        for(int i = 0; i < GameObject.getCollidableArray().size(); i++)
         {
-            CollidableGameObject cgo = collidableArray.get(i);
-            for (int j = 0; j < gameObjectArray.size(); j++)
+            CollidableGameObject cgo = GameObject.getCollidableArray().get(i);
+            for (int j = 0; j < GameObject.getGameObjectArray().size(); j++)
             {
-                GameObject gameObject = gameObjectArray.get(j);
+                GameObject gameObject = GameObject.getGameObjectArray().get(j);
                     if(cgo == gameObject)
                         continue;
-                    cgo.checkCollision(gameObjectArray.get(j));
+                    cgo.checkCollision(GameObject.getGameObjectArray().get(j));
 
             }
-        }
-        if(gyroChanged) {
-            gyroChanged = false;
         }
         scrollY = player.getY() - SCREEN_HEIGHT + 500;
-        clean();
-    }
-
-    private void clean() {
-        for (int i = 0; i < gameObjectArray.size(); i++)
-        {
-            GameObject gameObject = gameObjectArray.get(i);
-            if(!gameObject.isLiving())
-            {
-                gameObjectArray.remove(i);
-                if(collidableArray.contains(gameObject))
-                    collidableArray.remove(gameObject);
-                if(dynamicArray.contains(gameObject))
-                    dynamicArray.remove(gameObject);
-            }
-        }
     }
 
     private void draw() {
@@ -167,8 +123,8 @@ public class GameView extends SurfaceView implements Runnable {
             canvas = surfaceHolder.lockCanvas();
             canvas.drawColor(Color.rgb(69,160,204));
 
-            for(int i = 0; i < gameObjectArray.size(); i++) {
-                GameObject gameObject = gameObjectArray.get(i);
+            for(int i = 0; i < GameObject.getGameObjectArray().size(); i++) {
+                GameObject gameObject = GameObject.getGameObjectArray().get(i);
                 Bitmap sprite = spriteMap.get(gameObject.getDrawableId());
                 Paint paint = new Paint();
                 paint.setAlpha(gameObject.getOpacity());

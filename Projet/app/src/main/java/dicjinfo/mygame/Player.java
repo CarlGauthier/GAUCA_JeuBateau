@@ -11,6 +11,7 @@ public class Player extends CollidableGameObject {
     float velX, velY;
     float gyroMovement;
     int animationFrame = 0;
+    private int waveFrameCount = 0;
     boolean invincible = false;
 
     public Player() {
@@ -20,7 +21,34 @@ public class Player extends CollidableGameObject {
     @Override
     public void update() {
 
-        int a;
+        move();
+        checkBound();
+
+        if(invincible)
+            invincibility();
+        else
+            waveEmission();
+    }
+
+    private void invincibility() {
+
+        animationFrame++;
+        if(animationFrame % 5 == 0)
+        {
+            if(animationFrame % 10 == 0)
+                opacity = 255;
+            else
+                opacity = 0;
+        }
+        if(animationFrame > 100)
+        {
+            invincible = false;
+            opacity = 255;
+            animationFrame = 0;
+        }
+    }
+
+    private void move() {
         if(velY > -15)
             velY-= 1;
         velX *= 0.95;
@@ -28,24 +56,6 @@ public class Player extends CollidableGameObject {
         checkVelLimits();
         x += velX + gyroMovement;
         y += velY;
-
-        if(invincible) {
-            animationFrame++;
-            if(animationFrame % 5 == 0)
-            {
-                if(animationFrame % 10 == 0)
-                    opacity = 255;
-                else
-                    opacity = 0;
-            }
-            if(animationFrame > 120)
-            {
-                invincible = false;
-                animationFrame = 0;
-            }
-        }
-
-        checkBound();
     }
 
     private void checkVelLimits() {
@@ -65,6 +75,16 @@ public class Player extends CollidableGameObject {
             x = 1080 - width;
         if(x < 0)
             x = 0;
+    }
+
+    private void waveEmission() {
+        waveFrameCount++;
+        if(waveFrameCount > 2) {
+            Wave wave = new Wave(x + width / 2, y + height / 2);
+            gameObjectArray.add(1, wave);
+            dynamicArray.add(wave);
+            waveFrameCount = 0;
+        }
     }
 
     @Override

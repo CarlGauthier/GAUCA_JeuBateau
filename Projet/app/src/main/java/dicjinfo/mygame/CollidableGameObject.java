@@ -6,6 +6,7 @@ public abstract class CollidableGameObject extends GameObject implements IDynami
 
     public CollidableGameObject(int drawingId, float x, float y, float width, float height, boolean solid) {
         super(drawingId, x, y, width, height, solid);
+        collidableArray.add(this);
     }
 
     public void checkCollision(GameObject gameObject) {
