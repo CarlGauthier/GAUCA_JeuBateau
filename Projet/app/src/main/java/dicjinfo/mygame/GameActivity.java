@@ -36,9 +36,11 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        float z = 0;
-        if (event.sensor.getType() == Sensor.TYPE_ORIENTATION)
+        float z = 0, y = 0;
+        if (event.sensor.getType() == Sensor.TYPE_ORIENTATION) {
             z = event.values[2];
+            y = event.values[1];
+        }
         if(!baseSet) {
             baseSet = true;
             gameView.setBaseGyro(z);

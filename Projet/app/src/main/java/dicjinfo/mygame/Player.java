@@ -28,6 +28,12 @@ public class Player extends CollidableGameObject {
             invincibility();
         else
             waveEmission();
+
+        if(animationFrame == 50)
+        {
+            int a = gameObjectArray.indexOf(this);
+            int b = 5;
+        }
     }
 
     private void invincibility() {
@@ -55,7 +61,7 @@ public class Player extends CollidableGameObject {
         velY *= 0.95;
         checkVelLimits();
         x += velX + gyroMovement;
-        y += velY;
+        //y += velY;
     }
 
     private void checkVelLimits() {

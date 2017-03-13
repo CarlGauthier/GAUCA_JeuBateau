@@ -453,11 +453,13 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f020047
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020048
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020049
 int drawable abc_textfield_search_material 0x7f02004a
-int drawable notification_template_icon_bg 0x7f02004f
+int drawable notification_template_icon_bg 0x7f020051
 int drawable ocean 0x7f02004b
-int drawable rock 0x7f02004c
-int drawable terry 0x7f02004d
-int drawable wave 0x7f02004e
+int drawable octo 0x7f02004c
+int drawable popcorn 0x7f02004d
+int drawable rock 0x7f02004e
+int drawable terry 0x7f02004f
+int drawable wave 0x7f020050
 int id action0 0x7f0c0050
 int id action_bar 0x7f0c0041
 int id action_bar_activity_content 0x7f0c0000

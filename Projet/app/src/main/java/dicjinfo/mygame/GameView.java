@@ -64,20 +64,29 @@ public class GameView extends SurfaceView implements Runnable {
         spriteMap.put(R.drawable.terry, BitmapFactory.decodeResource(context.getResources(), R.drawable.terry));
         spriteMap.put(R.drawable.rock, BitmapFactory.decodeResource(context.getResources(), R.drawable.rock));
         spriteMap.put(R.drawable.wave, BitmapFactory.decodeResource(context.getResources(), R.drawable.wave));
+        spriteMap.put(R.drawable.popcorn, BitmapFactory.decodeResource(context.getResources(), R.drawable.popcorn));
+        spriteMap.put(R.drawable.octo, BitmapFactory.decodeResource(context.getResources(), R.drawable.octo));
 
         //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
 
         Random random = new Random();
 
-        for(int i = 0; i < 100; i++) {
+        for(int i = 0; i < 10; i++) {
             int w = (int)((random.nextFloat() % 4 + 0.5) * 100);
-            Rock rock = new Rock(random.nextInt(1000),-200 * i,w,w);
+            Octo rock = new Octo(random.nextInt(1000),-200 * i);
             GameObject.getGameObjectArray().add(rock);
+            GameObject.getDynamicArray().add(rock);
         }
 
+        Octo octo = new Octo(300, -1000);
+        GameObject.getGameObjectArray().add(octo);
+        GameObject.getDynamicArray().add(octo);
+
         player = new Player();
-        GameObject.getGameObjectArray().add(player);
-        GameObject.getDynamicArray().add(player);
+        GameObject.getGameObjectArray().add(1,player);
+        GameObject.getDynamicArray().add(1,player);
+
+
     }
 
     @Override
@@ -87,7 +96,7 @@ public class GameView extends SurfaceView implements Runnable {
             update();
             draw();
             try {
-                gameThread.sleep(17);
+                gameThread.sleep(16);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -128,15 +137,26 @@ public class GameView extends SurfaceView implements Runnable {
                 Bitmap sprite = spriteMap.get(gameObject.getDrawableId());
                 Paint paint = new Paint();
                 paint.setAlpha(gameObject.getOpacity());
+                //int x = gameObject.getX() - gameObject.getDrx();
                 canvas.drawBitmap(
                     sprite,
                     new Rect(0,0,sprite.getWidth(),sprite.getHeight()),
                     new Rect(
-                        (int)gameObject.getX(),
-                        (int)(gameObject.getY() - scrollY),
-                        (int)(gameObject.getWidth() + gameObject.getX()),
-                        (int)(gameObject.getHeight() + gameObject.getY() - scrollY)
+                        (int)gameObject.getX() - gameObject.getDrx(),
+                        (int)(gameObject.getY() - scrollY - gameObject.getDry()),
+                        (int)(gameObject.getrWidth() + gameObject.getX() + gameObject.getDrx()),
+                        (int)(gameObject.getrHeight() - scrollY + gameObject.getY() + gameObject.getDry())
                     ),
+                    paint
+                );
+
+                paint.setARGB(255,255,255,255);
+
+                canvas.drawRect(
+                    (int)gameObject.getX(),
+                    (int)gameObject.getY() - scrollY,
+                    (int)gameObject.getX() + gameObject.getWidth(),
+                    (int)gameObject.getY() + gameObject.getHeight() - scrollY,
                     paint
                 );
             }
