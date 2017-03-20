@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Display;
+import android.view.MotionEvent;
 import android.view.View;
 
 public class GameActivity extends AppCompatActivity implements SensorEventListener{
@@ -24,6 +25,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         gyro = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
@@ -36,6 +38,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+
         float z = 0, y = 0;
         if (event.sensor.getType() == Sensor.TYPE_ORIENTATION) {
             z = event.values[2];
@@ -55,6 +58,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     protected void onPause() {
+
         sensorManager.unregisterListener(this, gyro);
         super.onPause();
         gameView.pause();
@@ -62,6 +66,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     protected void onResume() {
+
         baseSet = false;
         sensorManager.registerListener(this, gyro, SensorManager.SENSOR_DELAY_UI);
         super.onResume();

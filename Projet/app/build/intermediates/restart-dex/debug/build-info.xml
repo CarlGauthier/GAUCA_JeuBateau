@@ -4,18 +4,18 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="38107951364299"
+    timestamp="347194301496760"
     token="-5830767427143641854" >
 
     <task
         name="javac"
-        duration="86" />
+        duration="156" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="11" />
     <task
         name="verifier"
         duration="2" />
@@ -24,12 +24,12 @@
         location="C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
         type="DEX" />
 
-    <build timestamp="37663893876305" >
+    <build timestamp="347126776854509" >
         <artifact
             location="C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="38107951364299" >
+    <build timestamp="347194301496760" >
         <artifact
             location="C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />

@@ -13,23 +13,25 @@ public class Octo extends GameObject implements IDynamic {
     public void update() {
         emission();
         animate();
+        if(frameCount == 75)
+            frameCount = 0;
         frameCount++;
     }
 
     private void emission() {
-        if(frameCount % 2 == 0)
+        if(frameCount % 75 == 0)
             emitPopcorn();
     }
 
     private void animate() {
         if(animeMode) {
-            rWidth++;
-            rHeight--;
+            rWidth+=2;
+            rHeight-=2;
             if(rWidth >= 160)
                 animeMode = false;
         } else {
-            rWidth--;
-            rHeight++;
+            rWidth-=2;
+            rHeight+=2;
             if(rHeight >= 140)
                 animeMode = true;
         }
@@ -38,13 +40,16 @@ public class Octo extends GameObject implements IDynamic {
 
     private void emitPopcorn() {
         GameObject player = gameObjectArray.get(1);
-        Popcorn popcorn = new Popcorn(
-                x + width / 2 - 25,
-                y + height / 2 - 25,
-                (player.x - x) / 30,
-                (player.y - y) / 30
-        );
-        //gameObjectArray.add(popcorn);
-        //dynamicArray.add(popcorn);
+        if(player.getY() > y + 400 && player.getY() < y + 2000)
+        {
+            Popcorn popcorn = new Popcorn(
+                    x + width / 2 - 25,
+                    y + height / 2 - 25,
+                    (player.x - x) / 30,
+                    (player.y - y) / 30
+            );
+            gameObjectArray.add(popcorn);
+            dynamicArray.add(popcorn);
+        }
     }
 }

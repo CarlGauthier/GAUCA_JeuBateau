@@ -4,6 +4,11 @@ import android.content.Context;
 
 public abstract class CollidableGameObject extends GameObject implements IDynamic{
 
+    public CollidableGameObject(int drawableId, float x, float y, float width, float height, int rWidth, int rHeight, boolean solid) {
+        super(drawableId, x, y, width, height, rWidth, rHeight, solid);
+        collidableArray.add(this);
+    }
+
     public CollidableGameObject(int drawingId, float x, float y, float width, float height, boolean solid) {
         super(drawingId, x, y, width, height, solid);
         collidableArray.add(this);
@@ -18,7 +23,7 @@ public abstract class CollidableGameObject extends GameObject implements IDynami
 
         if (Math.abs(dx) < w && Math.abs(dy) < h)
         {
-            if(gameObject.isSolid())
+            if(gameObject.isSolid() && solid)
             {
                 float wy = w * dy;
                 float hx = h * dx;

@@ -68,8 +68,7 @@ public abstract class GameObject {
         dynamicArray = new ArrayList<IDynamic>();
     }
 
-    private int drawableId;
-
+    protected int drawableId;
 
     //render values
     protected int opacity;

@@ -6,7 +6,7 @@ public class Popcorn extends GameObject implements IDynamic{
     float velX, velY;
 
     public Popcorn(float x, float y, float velX, float velY) {
-        super(R.drawable.popcorn, x, y, 50, 50, false);
+        super(R.drawable.popcorn, x, y, 50, 50, true);
         this.velX = velX;
         this.velY = velY;
     }
@@ -15,7 +15,7 @@ public class Popcorn extends GameObject implements IDynamic{
     public void update() {
         x += velX;
         y += velY;
-        if(frameCount == 100) {
+        if(frameCount == 500) {
             gameObjectArray.remove(this);
             dynamicArray.remove(this);
         }

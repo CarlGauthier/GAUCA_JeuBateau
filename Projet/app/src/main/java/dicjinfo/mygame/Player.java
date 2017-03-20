@@ -8,14 +8,24 @@ public class Player extends CollidableGameObject {
         this.gyroMovement = gyroMovement;
     }
 
-    float velX, velY;
+    public void setScreenTouch(boolean screenTouch) {
+        this.screenTouch = screenTouch;
+    }
+
+    //Sensor values
     float gyroMovement;
+    boolean screenTouch;
+
+    //
+    float velX, velY;
     int animationFrame = 0;
     private int waveFrameCount = 0;
     boolean invincible = false;
 
+    int health = 0;
+
     public Player() {
-        super(R.drawable.terry, 400, 0, 125, 260, true);
+        super(R.drawable.terry, 400, 0, 125, 222, 125, 260, true);
     }
 
     @Override
@@ -23,17 +33,14 @@ public class Player extends CollidableGameObject {
 
         move();
         checkBound();
-
+        if(screenTouch) {
+            shoot();
+            screenTouch = false;
+        }
         if(invincible)
             invincibility();
         else
             waveEmission();
-
-        if(animationFrame == 50)
-        {
-            int a = gameObjectArray.indexOf(this);
-            int b = 5;
-        }
     }
 
     private void invincibility() {
@@ -55,13 +62,13 @@ public class Player extends CollidableGameObject {
     }
 
     private void move() {
-        if(velY > -15)
+        if(velY > -10)
             velY-= 1;
         velX *= 0.95;
         velY *= 0.95;
         checkVelLimits();
         x += velX + gyroMovement;
-        //y += velY;
+        y += velY;
     }
 
     private void checkVelLimits() {
@@ -85,12 +92,19 @@ public class Player extends CollidableGameObject {
 
     private void waveEmission() {
         waveFrameCount++;
-        if(waveFrameCount > 2) {
-            Wave wave = new Wave(x + width / 2, y + height / 2);
-            gameObjectArray.add(1, wave);
+        if(waveFrameCount > 6) {
+            Wave wave = new Wave(x + rWidth / 2, y + rHeight / 2);
+            gameObjectArray.add(gameObjectArray.indexOf(this), wave);
             dynamicArray.add(wave);
             waveFrameCount = 0;
         }
+    }
+
+    private void shoot() {
+
+        Canonball canonball = new Canonball(x + 12.5f, y);
+        gameObjectArray.add(canonball);
+        dynamicArray.add(canonball);
     }
 
     @Override
@@ -104,6 +118,11 @@ public class Player extends CollidableGameObject {
             velY += dy / 2;
             invincible = true;
             opacity = 0;
+            health--;
+
+            gameObjectArray.remove(gameObject);
+            if(gameObject instanceof IDynamic)
+                dynamicArray.remove(gameObject);
         }
     }
 }

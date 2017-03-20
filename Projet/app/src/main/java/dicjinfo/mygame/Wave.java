@@ -2,20 +2,26 @@ package dicjinfo.mygame;
 
 public class Wave extends GameObject implements IDynamic {
 
+    int frameCount = 0;
+
     public Wave(float x, float y) {
-        super(R.drawable.wave, x - 32.5f, y - 32.5f, 75, 75, false);
+        super(R.drawable.wave, x - 50, y - 50, 100, 100, false);
     }
 
     @Override
     public void update() {
-        width += 8;
-        height += 8;
-        x -= 4;
-        y -= 4;
-        opacity -= 13;
+        rWidth += 6;
+        rHeight += 6;
+
+        if(frameCount > 25) {
+            opacity -= 13;
+        }
         if(opacity < 0) {
             gameObjectArray.remove(this);
             dynamicArray.remove(this);
         }
+        updateRenderValues();
+
+        frameCount++;
     }
 }

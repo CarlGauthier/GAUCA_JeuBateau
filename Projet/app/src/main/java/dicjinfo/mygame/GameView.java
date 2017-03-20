@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.Display;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
@@ -23,26 +24,6 @@ import java.util.logging.Level;
 
 public class GameView extends SurfaceView implements Runnable {
 
-    private final int SCREEN_WIDTH;
-    private final int SCREEN_HEIGHT;
-
-    private HashMap<Integer, Bitmap> spriteMap;
-
-    private Player player;
-
-    volatile boolean playing = true;
-    private Thread gameThread = null;
-
-    private LevelLoader levelLoader;
-
-    private Paint paint;
-    private Canvas canvas;
-    private SurfaceHolder surfaceHolder;
-
-    private float scrollY = 0;
-
-    private float gyroMovement = 0;
-    private float gyroBase;
     public void setBaseGyro(float baseGyro) {
         this.gyroBase = baseGyro;
     }
@@ -51,6 +32,26 @@ public class GameView extends SurfaceView implements Runnable {
 
         this.gyroMovement = gyroBase - gyroPosition;
     }
+
+    private final int SCREEN_WIDTH;
+    private final int SCREEN_HEIGHT;
+
+    private Player player;
+    volatile boolean playing = true;
+    private Thread gameThread = null;
+
+    private LevelLoader levelLoader;
+
+    //Display values
+    private HashMap<Integer, Bitmap> spriteMap;
+    private Paint paint;
+    private Canvas canvas;
+    private SurfaceHolder surfaceHolder;
+    private float scrollY = 0;
+
+    //Sensors values
+    private float gyroMovement = 0;
+    private float gyroBase;
 
     public GameView(Context context, int screenWidth, int screenHeight) {
         super(context);
@@ -63,30 +64,44 @@ public class GameView extends SurfaceView implements Runnable {
         spriteMap = new HashMap<Integer, Bitmap>();
         spriteMap.put(R.drawable.terry, BitmapFactory.decodeResource(context.getResources(), R.drawable.terry));
         spriteMap.put(R.drawable.rock, BitmapFactory.decodeResource(context.getResources(), R.drawable.rock));
+        spriteMap.put(R.drawable.destroyablerock, BitmapFactory.decodeResource(context.getResources(), R.drawable.destroyablerock));
         spriteMap.put(R.drawable.wave, BitmapFactory.decodeResource(context.getResources(), R.drawable.wave));
         spriteMap.put(R.drawable.popcorn, BitmapFactory.decodeResource(context.getResources(), R.drawable.popcorn));
         spriteMap.put(R.drawable.octo, BitmapFactory.decodeResource(context.getResources(), R.drawable.octo));
+        spriteMap.put(R.drawable.canonball, BitmapFactory.decodeResource(context.getResources(), R.drawable.canonball));
+        spriteMap.put(R.drawable.coin, BitmapFactory.decodeResource(context.getResources(), R.drawable.coin));
 
         //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
 
         Random random = new Random();
 
         for(int i = 0; i < 10; i++) {
-            int w = (int)((random.nextFloat() % 4 + 0.5) * 100);
-            Octo rock = new Octo(random.nextInt(1000),-200 * i);
+            Rock rock = new Rock(random.nextInt(1000),-200 * i + 100, 100, 100);
             GameObject.getGameObjectArray().add(rock);
-            GameObject.getDynamicArray().add(rock);
         }
-
-        Octo octo = new Octo(300, -1000);
-        GameObject.getGameObjectArray().add(octo);
-        GameObject.getDynamicArray().add(octo);
+        for(int i = 0; i < 10; i++) {
+            DestroyableRock destroyableRock = new DestroyableRock(random.nextInt(1000),-200 * i - 2100, 100, 100);
+            GameObject.getGameObjectArray().add(destroyableRock);
+        }
+        for(int i = 0; i < 10; i++) {
+            Octo octo = new Octo(random.nextInt(1000),-200 * i - 4100);
+            GameObject.getGameObjectArray().add(octo);
+            GameObject.getDynamicArray().add(octo);
+        }
 
         player = new Player();
         GameObject.getGameObjectArray().add(1,player);
         GameObject.getDynamicArray().add(1,player);
+    }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
 
+        if(event.getAction() == MotionEvent.ACTION_DOWN) {
+            player.setScreenTouch(true);
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -107,10 +122,12 @@ public class GameView extends SurfaceView implements Runnable {
 
         player.setGyroMovement(gyroMovement);
 
+        //Update all IDynamics
         for(int i = 0; i < GameObject.getDynamicArray().size(); i++) {
             IDynamic dgo = GameObject.getDynamicArray().get(i);
             dgo.update();
         }
+        //Collision checks
         for(int i = 0; i < GameObject.getCollidableArray().size(); i++)
         {
             CollidableGameObject cgo = GameObject.getCollidableArray().get(i);
@@ -144,12 +161,14 @@ public class GameView extends SurfaceView implements Runnable {
                     new Rect(
                         (int)gameObject.getX() - gameObject.getDrx(),
                         (int)(gameObject.getY() - scrollY - gameObject.getDry()),
-                        (int)(gameObject.getrWidth() + gameObject.getX() + gameObject.getDrx()),
-                        (int)(gameObject.getrHeight() - scrollY + gameObject.getY() + gameObject.getDry())
+                        (int)(gameObject.getrWidth() + gameObject.getX() - gameObject.getDrx()),
+                        (int)(gameObject.getrHeight() - scrollY + gameObject.getY() - gameObject.getDry())
                     ),
                     paint
                 );
 
+
+                /*
                 paint.setARGB(255,255,255,255);
 
                 canvas.drawRect(
@@ -159,6 +178,9 @@ public class GameView extends SurfaceView implements Runnable {
                     (int)gameObject.getY() + gameObject.getHeight() - scrollY,
                     paint
                 );
+                */
+
+
             }
             surfaceHolder.unlockCanvasAndPost(canvas);
         }
