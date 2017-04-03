@@ -3522,8 +3522,8 @@
                     "startLine": 217,
                     "startColumn": 4,
                     "startOffset": 29092,
-                    "endColumn": 43,
-                    "endOffset": 29131
+                    "endColumn": 47,
+                    "endOffset": 29135
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\strings.xml",
@@ -3531,8 +3531,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 17,
-                        "endColumn": 43,
-                        "endOffset": 56
+                        "endColumn": 47,
+                        "endOffset": 60
                     }
                 }
             },
@@ -3540,18 +3540,18 @@
                 "to": {
                     "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 29136,
+                    "startOffset": 29140,
                     "endColumn": 53,
-                    "endOffset": 29185
+                    "endOffset": 29189
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 126,
+                        "startOffset": 130,
                         "endColumn": 53,
-                        "endOffset": 175
+                        "endOffset": 179
                     }
                 }
             },
@@ -3559,18 +3559,18 @@
                 "to": {
                     "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 29190,
+                    "startOffset": 29194,
                     "endColumn": 56,
-                    "endOffset": 29242
+                    "endOffset": 29246
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 181,
+                        "startOffset": 185,
                         "endColumn": 56,
-                        "endOffset": 233
+                        "endOffset": 237
                     }
                 }
             },
@@ -3578,9 +3578,9 @@
                 "to": {
                     "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 29247,
+                    "startOffset": 29251,
                     "endColumn": 70,
-                    "endOffset": 29313
+                    "endOffset": 29317
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3597,18 +3597,18 @@
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 29318,
+                    "startOffset": 29322,
                     "endColumn": 60,
-                    "endOffset": 29374
+                    "endOffset": 29378
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 64,
+                        "startOffset": 68,
                         "endColumn": 60,
-                        "endOffset": 120
+                        "endOffset": 124
                     }
                 }
             },
@@ -3616,9 +3616,9 @@
                 "to": {
                     "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 29379,
+                    "startOffset": 29383,
                     "endColumn": 77,
-                    "endOffset": 29452
+                    "endOffset": 29456
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3635,9 +3635,9 @@
                 "to": {
                     "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 29457,
+                    "startOffset": 29461,
                     "endColumn": 89,
-                    "endOffset": 29542
+                    "endOffset": 29546
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3654,9 +3654,9 @@
                 "to": {
                     "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 29547,
+                    "startOffset": 29551,
                     "endColumn": 87,
-                    "endOffset": 29630
+                    "endOffset": 29634
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3673,9 +3673,9 @@
                 "to": {
                     "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 29635,
+                    "startOffset": 29639,
                     "endColumn": 95,
-                    "endOffset": 29726
+                    "endOffset": 29730
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3692,10 +3692,10 @@
                 "to": {
                     "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 29731,
+                    "startOffset": 29735,
                     "endLine": 233,
                     "endColumn": 12,
-                    "endOffset": 30156
+                    "endOffset": 30160
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\styles.xml",
@@ -3713,10 +3713,10 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 30161,
+                    "startOffset": 30165,
                     "endLine": 240,
                     "endColumn": 12,
-                    "endOffset": 30657
+                    "endOffset": 30661
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3734,9 +3734,9 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 30662,
+                    "startOffset": 30666,
                     "endColumn": 88,
-                    "endOffset": 30746
+                    "endOffset": 30750
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3753,10 +3753,10 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 30751,
+                    "startOffset": 30755,
                     "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 30993
+                    "endOffset": 30997
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3774,10 +3774,10 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 30998,
+                    "startOffset": 31002,
                     "endLine": 249,
                     "endColumn": 12,
-                    "endOffset": 31274
+                    "endOffset": 31278
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3795,10 +3795,10 @@
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 31279,
+                    "startOffset": 31283,
                     "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 31559
+                    "endOffset": 31563
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3816,10 +3816,10 @@
                 "to": {
                     "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 31564,
+                    "startOffset": 31568,
                     "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 31952
+                    "endOffset": 31956
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3837,10 +3837,10 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 31957,
+                    "startOffset": 31961,
                     "endLine": 267,
                     "endColumn": 12,
-                    "endOffset": 32429
+                    "endOffset": 32433
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3858,10 +3858,10 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 32434,
+                    "startOffset": 32438,
                     "endLine": 271,
                     "endColumn": 12,
-                    "endOffset": 32651
+                    "endOffset": 32655
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3879,10 +3879,10 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 32656,
+                    "startOffset": 32660,
                     "endLine": 275,
                     "endColumn": 12,
-                    "endOffset": 32873
+                    "endOffset": 32877
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3900,10 +3900,10 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 32878,
+                    "startOffset": 32882,
                     "endLine": 280,
                     "endColumn": 12,
-                    "endOffset": 33141
+                    "endOffset": 33145
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3921,10 +3921,10 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 33146,
+                    "startOffset": 33150,
                     "endLine": 284,
                     "endColumn": 12,
-                    "endOffset": 33368
+                    "endOffset": 33372
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3942,10 +3942,10 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 33373,
+                    "startOffset": 33377,
                     "endLine": 288,
                     "endColumn": 12,
-                    "endOffset": 33598
+                    "endOffset": 33602
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3963,10 +3963,10 @@
                 "to": {
                     "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 33603,
+                    "startOffset": 33607,
                     "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 33828
+                    "endOffset": 33832
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3984,10 +3984,10 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 33833,
+                    "startOffset": 33837,
                     "endLine": 296,
                     "endColumn": 12,
-                    "endOffset": 34058
+                    "endOffset": 34062
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4005,10 +4005,10 @@
                 "to": {
                     "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 34063,
+                    "startOffset": 34067,
                     "endLine": 300,
                     "endColumn": 12,
-                    "endOffset": 34288
+                    "endOffset": 34292
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4026,10 +4026,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 34293,
+                    "startOffset": 34297,
                     "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 34515
+                    "endOffset": 34519
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4047,10 +4047,10 @@
                 "to": {
                     "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 34520,
+                    "startOffset": 34524,
                     "endLine": 308,
                     "endColumn": 12,
-                    "endOffset": 34754
+                    "endOffset": 34758
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4068,10 +4068,10 @@
                 "to": {
                     "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 34759,
+                    "startOffset": 34763,
                     "endLine": 312,
                     "endColumn": 12,
-                    "endOffset": 34980
+                    "endOffset": 34984
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4089,10 +4089,10 @@
                 "to": {
                     "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 34985,
+                    "startOffset": 34989,
                     "endLine": 316,
                     "endColumn": 12,
-                    "endOffset": 35225
+                    "endOffset": 35229
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4110,10 +4110,10 @@
                 "to": {
                     "startLine": 317,
                     "startColumn": 4,
-                    "startOffset": 35230,
+                    "startOffset": 35234,
                     "endLine": 318,
                     "endColumn": 12,
-                    "endOffset": 35355
+                    "endOffset": 35359
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4131,10 +4131,10 @@
                 "to": {
                     "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 35360,
+                    "startOffset": 35364,
                     "endLine": 320,
                     "endColumn": 12,
-                    "endOffset": 35485
+                    "endOffset": 35489
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4152,10 +4152,10 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 35490,
+                    "startOffset": 35494,
                     "endLine": 324,
                     "endColumn": 12,
-                    "endOffset": 35715
+                    "endOffset": 35719
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4173,10 +4173,10 @@
                 "to": {
                     "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 35720,
+                    "startOffset": 35724,
                     "endLine": 328,
                     "endColumn": 12,
-                    "endOffset": 35963
+                    "endOffset": 35967
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4194,10 +4194,10 @@
                 "to": {
                     "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 35968,
+                    "startOffset": 35972,
                     "endLine": 332,
                     "endColumn": 12,
-                    "endOffset": 36182
+                    "endOffset": 36186
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4215,10 +4215,10 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 36187,
+                    "startOffset": 36191,
                     "endLine": 337,
                     "endColumn": 12,
-                    "endOffset": 36465
+                    "endOffset": 36469
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4236,10 +4236,10 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 36470,
+                    "startOffset": 36474,
                     "endLine": 341,
                     "endColumn": 12,
-                    "endOffset": 36673
+                    "endOffset": 36677
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4257,10 +4257,10 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 36678,
+                    "startOffset": 36682,
                     "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 36804
+                    "endOffset": 36808
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4278,10 +4278,10 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 36809,
+                    "startOffset": 36813,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 37031
+                    "endOffset": 37035
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4299,10 +4299,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 37036,
+                    "startOffset": 37040,
                     "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 37277
+                    "endOffset": 37281
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4320,10 +4320,10 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 37282,
+                    "startOffset": 37286,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 37502
+                    "endOffset": 37506
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4341,10 +4341,10 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 37507,
+                    "startOffset": 37511,
                     "endLine": 360,
                     "endColumn": 12,
-                    "endOffset": 37749
+                    "endOffset": 37753
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4362,10 +4362,10 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 37754,
+                    "startOffset": 37758,
                     "endLine": 364,
                     "endColumn": 12,
-                    "endOffset": 37970
+                    "endOffset": 37974
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4383,10 +4383,10 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 37975,
+                    "startOffset": 37979,
                     "endLine": 368,
                     "endColumn": 12,
-                    "endOffset": 38215
+                    "endOffset": 38219
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4404,10 +4404,10 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 38220,
+                    "startOffset": 38224,
                     "endLine": 372,
                     "endColumn": 12,
-                    "endOffset": 38491
+                    "endOffset": 38495
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4425,10 +4425,10 @@
                 "to": {
                     "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 38496,
+                    "startOffset": 38500,
                     "endLine": 376,
                     "endColumn": 12,
-                    "endOffset": 38792
+                    "endOffset": 38796
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4446,10 +4446,10 @@
                 "to": {
                     "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 38797,
+                    "startOffset": 38801,
                     "endLine": 380,
                     "endColumn": 12,
-                    "endOffset": 39116
+                    "endOffset": 39120
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4467,10 +4467,10 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 39121,
+                    "startOffset": 39125,
                     "endLine": 384,
                     "endColumn": 12,
-                    "endOffset": 39407
+                    "endOffset": 39411
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4488,10 +4488,10 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 39412,
+                    "startOffset": 39416,
                     "endLine": 388,
                     "endColumn": 12,
-                    "endOffset": 39721
+                    "endOffset": 39725
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4509,9 +4509,9 @@
                 "to": {
                     "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 39726,
+                    "startOffset": 39730,
                     "endColumn": 136,
-                    "endOffset": 39858
+                    "endOffset": 39862
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4528,9 +4528,9 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 39863,
+                    "startOffset": 39867,
                     "endColumn": 130,
-                    "endOffset": 39989
+                    "endOffset": 39993
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4547,9 +4547,9 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 39994,
+                    "startOffset": 39998,
                     "endColumn": 104,
-                    "endOffset": 40094
+                    "endOffset": 40098
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4566,10 +4566,10 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 40099,
+                    "startOffset": 40103,
                     "endLine": 394,
                     "endColumn": 12,
-                    "endOffset": 40298
+                    "endOffset": 40302
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4587,10 +4587,10 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 40303,
+                    "startOffset": 40307,
                     "endLine": 397,
                     "endColumn": 12,
-                    "endOffset": 40506
+                    "endOffset": 40510
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4608,10 +4608,10 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 40511,
+                    "startOffset": 40515,
                     "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 40630
+                    "endOffset": 40634
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4629,10 +4629,10 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 40635,
+                    "startOffset": 40639,
                     "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 40754
+                    "endOffset": 40758
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4650,9 +4650,9 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 40759,
+                    "startOffset": 40763,
                     "endColumn": 104,
-                    "endOffset": 40859
+                    "endOffset": 40863
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4669,9 +4669,9 @@
                 "to": {
                     "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 40864,
+                    "startOffset": 40868,
                     "endColumn": 116,
-                    "endOffset": 40976
+                    "endOffset": 40980
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4688,10 +4688,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 40981,
+                    "startOffset": 40985,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 41190
+                    "endOffset": 41194
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4709,10 +4709,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 41195,
+                    "startOffset": 41199,
                     "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 41336
+                    "endOffset": 41340
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4730,10 +4730,10 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 41341,
+                    "startOffset": 41345,
                     "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 41476
+                    "endOffset": 41480
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4751,10 +4751,10 @@
                 "to": {
                     "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 41481,
+                    "startOffset": 41485,
                     "endLine": 412,
                     "endColumn": 12,
-                    "endOffset": 41562
+                    "endOffset": 41566
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4772,10 +4772,10 @@
                 "to": {
                     "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 41567,
+                    "startOffset": 41571,
                     "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 41910
+                    "endOffset": 41914
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4793,9 +4793,9 @@
                 "to": {
                     "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 41915,
+                    "startOffset": 41919,
                     "endColumn": 87,
-                    "endOffset": 41998
+                    "endOffset": 42002
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4812,10 +4812,10 @@
                 "to": {
                     "startLine": 419,
                     "startColumn": 4,
-                    "startOffset": 42003,
+                    "startOffset": 42007,
                     "endLine": 422,
                     "endColumn": 12,
-                    "endOffset": 42228
+                    "endOffset": 42232
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4833,10 +4833,10 @@
                 "to": {
                     "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 42233,
+                    "startOffset": 42237,
                     "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 42646
+                    "endOffset": 42650
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4854,10 +4854,10 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 42651,
+                    "startOffset": 42655,
                     "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 42879
+                    "endOffset": 42883
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4875,9 +4875,9 @@
                 "to": {
                     "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 42884,
+                    "startOffset": 42888,
                     "endColumn": 81,
-                    "endOffset": 42961
+                    "endOffset": 42965
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4894,10 +4894,10 @@
                 "to": {
                     "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 42966,
+                    "startOffset": 42970,
                     "endLine": 435,
                     "endColumn": 12,
-                    "endOffset": 43059
+                    "endOffset": 43063
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4915,10 +4915,10 @@
                 "to": {
                     "startLine": 436,
                     "startColumn": 4,
-                    "startOffset": 43064,
+                    "startOffset": 43068,
                     "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 43676
+                    "endOffset": 43680
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4936,9 +4936,9 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 43681,
+                    "startOffset": 43685,
                     "endColumn": 99,
-                    "endOffset": 43776
+                    "endOffset": 43780
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4955,10 +4955,10 @@
                 "to": {
                     "startLine": 448,
                     "startColumn": 4,
-                    "startOffset": 43781,
+                    "startOffset": 43785,
                     "endLine": 451,
                     "endColumn": 12,
-                    "endOffset": 44012
+                    "endOffset": 44016
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4976,10 +4976,10 @@
                 "to": {
                     "startLine": 452,
                     "startColumn": 4,
-                    "startOffset": 44017,
+                    "startOffset": 44021,
                     "endLine": 457,
                     "endColumn": 12,
-                    "endOffset": 44436
+                    "endOffset": 44440
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4997,10 +4997,10 @@
                 "to": {
                     "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 44441,
+                    "startOffset": 44445,
                     "endLine": 461,
                     "endColumn": 12,
-                    "endOffset": 44675
+                    "endOffset": 44679
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5018,9 +5018,9 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 44680,
+                    "startOffset": 44684,
                     "endColumn": 93,
-                    "endOffset": 44769
+                    "endOffset": 44773
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5037,9 +5037,9 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 44774,
+                    "startOffset": 44778,
                     "endColumn": 88,
-                    "endOffset": 44858
+                    "endOffset": 44862
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5056,10 +5056,10 @@
                 "to": {
                     "startLine": 464,
                     "startColumn": 4,
-                    "startOffset": 44863,
+                    "startOffset": 44867,
                     "endLine": 467,
                     "endColumn": 12,
-                    "endOffset": 45095
+                    "endOffset": 45099
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5077,10 +5077,10 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 45100,
+                    "startOffset": 45104,
                     "endLine": 493,
                     "endColumn": 12,
-                    "endOffset": 47046
+                    "endOffset": 47050
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5098,10 +5098,10 @@
                 "to": {
                     "startLine": 494,
                     "startColumn": 4,
-                    "startOffset": 47051,
+                    "startOffset": 47055,
                     "endLine": 497,
                     "endColumn": 12,
-                    "endOffset": 47288
+                    "endOffset": 47292
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5119,10 +5119,10 @@
                 "to": {
                     "startLine": 498,
                     "startColumn": 4,
-                    "startOffset": 47293,
+                    "startOffset": 47297,
                     "endLine": 524,
                     "endColumn": 12,
-                    "endOffset": 49370
+                    "endOffset": 49374
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5140,10 +5140,10 @@
                 "to": {
                     "startLine": 525,
                     "startColumn": 4,
-                    "startOffset": 49375,
+                    "startOffset": 49379,
                     "endLine": 679,
                     "endColumn": 12,
-                    "endOffset": 59236
+                    "endOffset": 59240
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5161,10 +5161,10 @@
                 "to": {
                     "startLine": 680,
                     "startColumn": 4,
-                    "startOffset": 59241,
+                    "startOffset": 59245,
                     "endLine": 701,
                     "endColumn": 12,
-                    "endOffset": 60503
+                    "endOffset": 60507
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5182,10 +5182,10 @@
                 "to": {
                     "startLine": 702,
                     "startColumn": 4,
-                    "startOffset": 60508,
+                    "startOffset": 60512,
                     "endLine": 856,
                     "endColumn": 12,
-                    "endOffset": 70479
+                    "endOffset": 70483
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5203,10 +5203,10 @@
                 "to": {
                     "startLine": 857,
                     "startColumn": 4,
-                    "startOffset": 70484,
+                    "startOffset": 70488,
                     "endLine": 878,
                     "endColumn": 12,
-                    "endOffset": 71760
+                    "endOffset": 71764
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5224,10 +5224,10 @@
                 "to": {
                     "startLine": 879,
                     "startColumn": 4,
-                    "startOffset": 71765,
+                    "startOffset": 71769,
                     "endLine": 885,
                     "endColumn": 12,
-                    "endOffset": 72296
+                    "endOffset": 72300
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5245,10 +5245,10 @@
                 "to": {
                     "startLine": 886,
                     "startColumn": 4,
-                    "startOffset": 72301,
+                    "startOffset": 72305,
                     "endLine": 890,
                     "endColumn": 12,
-                    "endOffset": 72626
+                    "endOffset": 72630
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5266,10 +5266,10 @@
                 "to": {
                     "startLine": 891,
                     "startColumn": 4,
-                    "startOffset": 72631,
+                    "startOffset": 72635,
                     "endLine": 911,
                     "endColumn": 12,
-                    "endOffset": 73749
+                    "endOffset": 73753
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5287,10 +5287,10 @@
                 "to": {
                     "startLine": 912,
                     "startColumn": 4,
-                    "startOffset": 73754,
+                    "startOffset": 73758,
                     "endLine": 916,
                     "endColumn": 12,
-                    "endOffset": 74005
+                    "endOffset": 74009
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5308,10 +5308,10 @@
                 "to": {
                     "startLine": 917,
                     "startColumn": 4,
-                    "startOffset": 74010,
+                    "startOffset": 74014,
                     "endLine": 921,
                     "endColumn": 12,
-                    "endOffset": 74241
+                    "endOffset": 74245
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5329,10 +5329,10 @@
                 "to": {
                     "startLine": 922,
                     "startColumn": 4,
-                    "startOffset": 74246,
+                    "startOffset": 74250,
                     "endLine": 931,
                     "endColumn": 12,
-                    "endOffset": 74788
+                    "endOffset": 74792
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5350,10 +5350,10 @@
                 "to": {
                     "startLine": 932,
                     "startColumn": 4,
-                    "startOffset": 74793,
+                    "startOffset": 74797,
                     "endLine": 940,
                     "endColumn": 12,
-                    "endOffset": 75282
+                    "endOffset": 75286
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5371,10 +5371,10 @@
                 "to": {
                     "startLine": 941,
                     "startColumn": 4,
-                    "startOffset": 75287,
+                    "startOffset": 75291,
                     "endLine": 949,
                     "endColumn": 12,
-                    "endOffset": 75887
+                    "endOffset": 75891
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5392,10 +5392,10 @@
                 "to": {
                     "startLine": 950,
                     "startColumn": 4,
-                    "startOffset": 75892,
+                    "startOffset": 75896,
                     "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 76035
+                    "endOffset": 76039
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5413,10 +5413,10 @@
                 "to": {
                     "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 76040,
+                    "startOffset": 76044,
                     "endLine": 959,
                     "endColumn": 12,
-                    "endOffset": 76623
+                    "endOffset": 76627
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5434,10 +5434,10 @@
                 "to": {
                     "startLine": 960,
                     "startColumn": 4,
-                    "startOffset": 76628,
+                    "startOffset": 76632,
                     "endLine": 967,
                     "endColumn": 12,
-                    "endOffset": 77187
+                    "endOffset": 77191
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5455,10 +5455,10 @@
                 "to": {
                     "startLine": 968,
                     "startColumn": 4,
-                    "startOffset": 77192,
+                    "startOffset": 77196,
                     "endLine": 974,
                     "endColumn": 12,
-                    "endOffset": 77562
+                    "endOffset": 77566
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5476,9 +5476,9 @@
                 "to": {
                     "startLine": 975,
                     "startColumn": 4,
-                    "startOffset": 77567,
+                    "startOffset": 77571,
                     "endColumn": 117,
-                    "endOffset": 77680
+                    "endOffset": 77684
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5495,10 +5495,10 @@
                 "to": {
                     "startLine": 976,
                     "startColumn": 4,
-                    "startOffset": 77685,
+                    "startOffset": 77689,
                     "endLine": 984,
                     "endColumn": 12,
-                    "endOffset": 78218
+                    "endOffset": 78222
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5516,10 +5516,10 @@
                 "to": {
                     "startLine": 985,
                     "startColumn": 4,
-                    "startOffset": 78223,
+                    "startOffset": 78227,
                     "endLine": 987,
                     "endColumn": 12,
-                    "endOffset": 78375
+                    "endOffset": 78379
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5537,10 +5537,10 @@
                 "to": {
                     "startLine": 988,
                     "startColumn": 4,
-                    "startOffset": 78380,
+                    "startOffset": 78384,
                     "endLine": 990,
                     "endColumn": 12,
-                    "endOffset": 78519
+                    "endOffset": 78523
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5558,10 +5558,10 @@
                 "to": {
                     "startLine": 991,
                     "startColumn": 4,
-                    "startOffset": 78524,
+                    "startOffset": 78528,
                     "endLine": 995,
                     "endColumn": 12,
-                    "endOffset": 78839
+                    "endOffset": 78843
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5579,10 +5579,10 @@
                 "to": {
                     "startLine": 996,
                     "startColumn": 4,
-                    "startOffset": 78844,
+                    "startOffset": 78848,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 79095
+                    "endOffset": 79099
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5600,10 +5600,10 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 79100,
+                    "startOffset": 79104,
                     "endLine": 1003,
                     "endColumn": 12,
-                    "endOffset": 79265
+                    "endOffset": 79269
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5621,10 +5621,10 @@
                 "to": {
                     "startLine": 1004,
                     "startColumn": 4,
-                    "startOffset": 79270,
+                    "startOffset": 79274,
                     "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 79406
+                    "endOffset": 79410
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5642,9 +5642,9 @@
                 "to": {
                     "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 79411,
+                    "startOffset": 79415,
                     "endColumn": 63,
-                    "endOffset": 79470
+                    "endOffset": 79474
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5661,10 +5661,10 @@
                 "to": {
                     "startLine": 1008,
                     "startColumn": 4,
-                    "startOffset": 79475,
+                    "startOffset": 79479,
                     "endLine": 1011,
                     "endColumn": 12,
-                    "endOffset": 79752
+                    "endOffset": 79756
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5682,10 +5682,10 @@
                 "to": {
                     "startLine": 1012,
                     "startColumn": 4,
-                    "startOffset": 79757,
+                    "startOffset": 79761,
                     "endLine": 1015,
                     "endColumn": 12,
-                    "endOffset": 80038
+                    "endOffset": 80042
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5703,10 +5703,10 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 80043,
+                    "startOffset": 80047,
                     "endLine": 1025,
                     "endColumn": 12,
-                    "endOffset": 80714
+                    "endOffset": 80718
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5724,10 +5724,10 @@
                 "to": {
                     "startLine": 1026,
                     "startColumn": 4,
-                    "startOffset": 80719,
+                    "startOffset": 80723,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 80978
+                    "endOffset": 80982
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5745,10 +5745,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 80983,
+                    "startOffset": 80987,
                     "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 81316
+                    "endOffset": 81320
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5766,10 +5766,10 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 81321,
+                    "startOffset": 81325,
                     "endLine": 1043,
                     "endColumn": 12,
-                    "endOffset": 81669
+                    "endOffset": 81673
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5787,9 +5787,9 @@
                 "to": {
                     "startLine": 1044,
                     "startColumn": 4,
-                    "startOffset": 81674,
+                    "startOffset": 81678,
                     "endColumn": 93,
-                    "endOffset": 81763
+                    "endOffset": 81767
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5806,10 +5806,10 @@
                 "to": {
                     "startLine": 1045,
                     "startColumn": 4,
-                    "startOffset": 81768,
+                    "startOffset": 81772,
                     "endLine": 1047,
                     "endColumn": 12,
-                    "endOffset": 81949
+                    "endOffset": 81953
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5827,10 +5827,10 @@
                 "to": {
                     "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 81954,
+                    "startOffset": 81958,
                     "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 82255
+                    "endOffset": 82259
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5848,10 +5848,10 @@
                 "to": {
                     "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 82260,
+                    "startOffset": 82264,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 82517
+                    "endOffset": 82521
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5869,10 +5869,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 82522,
+                    "startOffset": 82526,
                     "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 82642
+                    "endOffset": 82646
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5890,10 +5890,10 @@
                 "to": {
                     "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 82647,
+                    "startOffset": 82651,
                     "endLine": 1060,
                     "endColumn": 12,
-                    "endOffset": 82769
+                    "endOffset": 82773
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5911,10 +5911,10 @@
                 "to": {
                     "startLine": 1061,
                     "startColumn": 4,
-                    "startOffset": 82774,
+                    "startOffset": 82778,
                     "endLine": 1063,
                     "endColumn": 12,
-                    "endOffset": 83008
+                    "endOffset": 83012
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5932,10 +5932,10 @@
                 "to": {
                     "startLine": 1064,
                     "startColumn": 4,
-                    "startOffset": 83013,
+                    "startOffset": 83017,
                     "endLine": 1066,
                     "endColumn": 12,
-                    "endOffset": 83219
+                    "endOffset": 83223
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5953,10 +5953,10 @@
                 "to": {
                     "startLine": 1067,
                     "startColumn": 4,
-                    "startOffset": 83224,
+                    "startOffset": 83228,
                     "endLine": 1068,
                     "endColumn": 12,
-                    "endOffset": 83338
+                    "endOffset": 83342
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5974,10 +5974,10 @@
                 "to": {
                     "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 83343,
+                    "startOffset": 83347,
                     "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 83531
+                    "endOffset": 83535
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5995,10 +5995,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 83536,
+                    "startOffset": 83540,
                     "endLine": 1079,
                     "endColumn": 12,
-                    "endOffset": 83986
+                    "endOffset": 83990
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6016,10 +6016,10 @@
                 "to": {
                     "startLine": 1080,
                     "startColumn": 4,
-                    "startOffset": 83991,
+                    "startOffset": 83995,
                     "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 84167
+                    "endOffset": 84171
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6037,10 +6037,10 @@
                 "to": {
                     "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 84172,
+                    "startOffset": 84176,
                     "endLine": 1085,
                     "endColumn": 12,
-                    "endOffset": 84289
+                    "endOffset": 84293
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6058,10 +6058,10 @@
                 "to": {
                     "startLine": 1086,
                     "startColumn": 4,
-                    "startOffset": 84294,
+                    "startOffset": 84298,
                     "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 84548
+                    "endOffset": 84552
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6079,10 +6079,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 84553,
+                    "startOffset": 84557,
                     "endLine": 1091,
                     "endColumn": 12,
-                    "endOffset": 84661
+                    "endOffset": 84665
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6100,10 +6100,10 @@
                 "to": {
                     "startLine": 1092,
                     "startColumn": 4,
-                    "startOffset": 84666,
+                    "startOffset": 84670,
                     "endLine": 1095,
                     "endColumn": 12,
-                    "endOffset": 84848
+                    "endOffset": 84852
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6121,10 +6121,10 @@
                 "to": {
                     "startLine": 1096,
                     "startColumn": 4,
-                    "startOffset": 84853,
+                    "startOffset": 84857,
                     "endLine": 1097,
                     "endColumn": 12,
-                    "endOffset": 84950
+                    "endOffset": 84954
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6142,10 +6142,10 @@
                 "to": {
                     "startLine": 1098,
                     "startColumn": 4,
-                    "startOffset": 84955,
+                    "startOffset": 84959,
                     "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 85394
+                    "endOffset": 85398
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6163,10 +6163,10 @@
                 "to": {
                     "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 85399,
+                    "startOffset": 85403,
                     "endLine": 1105,
                     "endColumn": 12,
-                    "endOffset": 85518
+                    "endOffset": 85522
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6184,10 +6184,10 @@
                 "to": {
                     "startLine": 1106,
                     "startColumn": 4,
-                    "startOffset": 85523,
+                    "startOffset": 85527,
                     "endLine": 1109,
                     "endColumn": 12,
-                    "endOffset": 85803
+                    "endOffset": 85807
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6205,10 +6205,10 @@
                 "to": {
                     "startLine": 1110,
                     "startColumn": 4,
-                    "startOffset": 85808,
+                    "startOffset": 85812,
                     "endLine": 1117,
                     "endColumn": 12,
-                    "endOffset": 86311
+                    "endOffset": 86315
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6226,10 +6226,10 @@
                 "to": {
                     "startLine": 1118,
                     "startColumn": 4,
-                    "startOffset": 86316,
+                    "startOffset": 86320,
                     "endLine": 1125,
                     "endColumn": 12,
-                    "endOffset": 86807
+                    "endOffset": 86811
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6247,10 +6247,10 @@
                 "to": {
                     "startLine": 1126,
                     "startColumn": 4,
-                    "startOffset": 86812,
+                    "startOffset": 86816,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 87694
+                    "endOffset": 87698
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6268,10 +6268,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 87699,
+                    "startOffset": 87703,
                     "endLine": 1143,
                     "endColumn": 12,
-                    "endOffset": 87988
+                    "endOffset": 87992
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6289,10 +6289,10 @@
                 "to": {
                     "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 87993,
+                    "startOffset": 87997,
                     "endLine": 1152,
                     "endColumn": 12,
-                    "endOffset": 88558
+                    "endOffset": 88562
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6310,10 +6310,10 @@
                 "to": {
                     "startLine": 1153,
                     "startColumn": 4,
-                    "startOffset": 88563,
+                    "startOffset": 88567,
                     "endLine": 1163,
                     "endColumn": 12,
-                    "endOffset": 89290
+                    "endOffset": 89294
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6331,10 +6331,10 @@
                 "to": {
                     "startLine": 1164,
                     "startColumn": 4,
-                    "startOffset": 89295,
+                    "startOffset": 89299,
                     "endLine": 1166,
                     "endColumn": 12,
-                    "endOffset": 89462
+                    "endOffset": 89466
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6352,10 +6352,10 @@
                 "to": {
                     "startLine": 1167,
                     "startColumn": 4,
-                    "startOffset": 89467,
+                    "startOffset": 89471,
                     "endLine": 1171,
                     "endColumn": 12,
-                    "endOffset": 89798
+                    "endOffset": 89802
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6373,10 +6373,10 @@
                 "to": {
                     "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 89803,
+                    "startOffset": 89807,
                     "endLine": 1183,
                     "endColumn": 12,
-                    "endOffset": 90706
+                    "endOffset": 90710
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6394,10 +6394,10 @@
                 "to": {
                     "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 90711,
+                    "startOffset": 90715,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 90984
+                    "endOffset": 90988
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6415,10 +6415,10 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 90989,
+                    "startOffset": 90993,
                     "endLine": 1191,
                     "endColumn": 12,
-                    "endOffset": 91145
+                    "endOffset": 91149
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\styles.xml",
@@ -6436,10 +6436,10 @@
                 "to": {
                     "startLine": 1192,
                     "startColumn": 4,
-                    "startOffset": 91150,
+                    "startOffset": 91154,
                     "endLine": 1198,
                     "endColumn": 12,
-                    "endOffset": 91581
+                    "endOffset": 91585
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\values\\styles.xml",
@@ -6457,10 +6457,10 @@
                 "to": {
                     "startLine": 1199,
                     "startColumn": 4,
-                    "startOffset": 91586,
+                    "startOffset": 91590,
                     "endLine": 1236,
                     "endColumn": 12,
-                    "endOffset": 94443
+                    "endOffset": 94447
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6478,10 +6478,10 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 94448,
+                    "startOffset": 94452,
                     "endLine": 1275,
                     "endColumn": 12,
-                    "endOffset": 97445
+                    "endOffset": 97449
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6499,9 +6499,9 @@
                 "to": {
                     "startLine": 1276,
                     "startColumn": 4,
-                    "startOffset": 97450,
+                    "startOffset": 97454,
                     "endColumn": 61,
-                    "endOffset": 97507
+                    "endOffset": 97511
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6518,10 +6518,10 @@
                 "to": {
                     "startLine": 1277,
                     "startColumn": 4,
-                    "startOffset": 97512,
+                    "startOffset": 97516,
                     "endLine": 1286,
                     "endColumn": 12,
-                    "endOffset": 98137
+                    "endOffset": 98141
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6539,10 +6539,10 @@
                 "to": {
                     "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 98142,
+                    "startOffset": 98146,
                     "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 98751
+                    "endOffset": 98755
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6560,9 +6560,9 @@
                 "to": {
                     "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 98756,
+                    "startOffset": 98760,
                     "endColumn": 85,
-                    "endOffset": 98837
+                    "endOffset": 98841
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6579,10 +6579,10 @@
                 "to": {
                     "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 98842,
+                    "startOffset": 98846,
                     "endLine": 1298,
                     "endColumn": 12,
-                    "endOffset": 98950
+                    "endOffset": 98954
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6600,10 +6600,10 @@
                 "to": {
                     "startLine": 1299,
                     "startColumn": 4,
-                    "startOffset": 98955,
+                    "startOffset": 98959,
                     "endLine": 1302,
                     "endColumn": 12,
-                    "endOffset": 99179
+                    "endOffset": 99183
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6621,10 +6621,10 @@
                 "to": {
                     "startLine": 1303,
                     "startColumn": 4,
-                    "startOffset": 99184,
+                    "startOffset": 99188,
                     "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 99339
+                    "endOffset": 99343
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6642,10 +6642,10 @@
                 "to": {
                     "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 99344,
+                    "startOffset": 99348,
                     "endLine": 1308,
                     "endColumn": 12,
-                    "endOffset": 99491
+                    "endOffset": 99495
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6663,10 +6663,10 @@
                 "to": {
                     "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 99496,
+                    "startOffset": 99500,
                     "endLine": 1311,
                     "endColumn": 12,
-                    "endOffset": 99662
+                    "endOffset": 99666
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6684,10 +6684,10 @@
                 "to": {
                     "startLine": 1312,
                     "startColumn": 4,
-                    "startOffset": 99667,
+                    "startOffset": 99671,
                     "endLine": 1314,
                     "endColumn": 12,
-                    "endOffset": 99829
+                    "endOffset": 99833
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6705,10 +6705,10 @@
                 "to": {
                     "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 99834,
+                    "startOffset": 99838,
                     "endLine": 1318,
                     "endColumn": 12,
-                    "endOffset": 100072
+                    "endOffset": 100076
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6726,10 +6726,10 @@
                 "to": {
                     "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 100077,
+                    "startOffset": 100081,
                     "endLine": 1321,
                     "endColumn": 12,
-                    "endOffset": 100242
+                    "endOffset": 100246
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6747,10 +6747,10 @@
                 "to": {
                     "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 100247,
+                    "startOffset": 100251,
                     "endLine": 1324,
                     "endColumn": 12,
-                    "endOffset": 100415
+                    "endOffset": 100419
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6768,10 +6768,10 @@
                 "to": {
                     "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 100420,
+                    "startOffset": 100424,
                     "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 100586
+                    "endOffset": 100590
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6789,10 +6789,10 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 100591,
+                    "startOffset": 100595,
                     "endLine": 1331,
                     "endColumn": 12,
-                    "endOffset": 100860
+                    "endOffset": 100864
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6810,10 +6810,10 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 100865,
+                    "startOffset": 100869,
                     "endLine": 1334,
                     "endColumn": 12,
-                    "endOffset": 101059
+                    "endOffset": 101063
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6831,10 +6831,10 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 101064,
+                    "startOffset": 101068,
                     "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 101264
+                    "endOffset": 101268
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6852,10 +6852,10 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101269,
+                    "startOffset": 101273,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 101594
+                    "endOffset": 101598
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6873,9 +6873,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 101599,
+                    "startOffset": 101603,
                     "endColumn": 83,
-                    "endOffset": 101678
+                    "endOffset": 101682
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6892,9 +6892,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 101683,
+                    "startOffset": 101687,
                     "endColumn": 95,
-                    "endOffset": 101774
+                    "endOffset": 101778
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6911,9 +6911,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 101779,
+                    "startOffset": 101783,
                     "endColumn": 95,
-                    "endOffset": 101870
+                    "endOffset": 101874
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6930,9 +6930,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 101875,
+                    "startOffset": 101879,
                     "endColumn": 97,
-                    "endOffset": 101968
+                    "endOffset": 101972
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6949,9 +6949,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 101973,
+                    "startOffset": 101977,
                     "endColumn": 99,
-                    "endOffset": 102068
+                    "endOffset": 102072
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6968,9 +6968,9 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102073,
+                    "startOffset": 102077,
                     "endColumn": 101,
-                    "endOffset": 102170
+                    "endOffset": 102174
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6987,9 +6987,9 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 102175,
+                    "startOffset": 102179,
                     "endColumn": 101,
-                    "endOffset": 102272
+                    "endOffset": 102276
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7006,9 +7006,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102277,
+                    "startOffset": 102281,
                     "endColumn": 101,
-                    "endOffset": 102374
+                    "endOffset": 102378
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7025,9 +7025,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 102379,
+                    "startOffset": 102383,
                     "endColumn": 101,
-                    "endOffset": 102476
+                    "endOffset": 102480
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7044,9 +7044,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102481,
+                    "startOffset": 102485,
                     "endColumn": 101,
-                    "endOffset": 102578
+                    "endOffset": 102582
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7063,9 +7063,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102583,
+                    "startOffset": 102587,
                     "endColumn": 99,
-                    "endOffset": 102678
+                    "endOffset": 102682
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7082,9 +7082,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 102683,
+                    "startOffset": 102687,
                     "endColumn": 95,
-                    "endOffset": 102774
+                    "endOffset": 102778
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7101,9 +7101,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102779,
+                    "startOffset": 102783,
                     "endColumn": 111,
-                    "endOffset": 102886
+                    "endOffset": 102890
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7120,9 +7120,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 102891,
+                    "startOffset": 102895,
                     "endColumn": 128,
-                    "endOffset": 103015
+                    "endOffset": 103019
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7139,9 +7139,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103020,
+                    "startOffset": 103024,
                     "endColumn": 122,
-                    "endOffset": 103138
+                    "endOffset": 103142
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7158,10 +7158,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103143,
+                    "startOffset": 103147,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103292
+                    "endOffset": 103296
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7179,10 +7179,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103297,
+                    "startOffset": 103301,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 103446
+                    "endOffset": 103450
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7200,9 +7200,9 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 103451,
+                    "startOffset": 103455,
                     "endColumn": 97,
-                    "endOffset": 103544
+                    "endOffset": 103548
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7219,9 +7219,9 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103549,
+                    "startOffset": 103553,
                     "endColumn": 113,
-                    "endOffset": 103658
+                    "endOffset": 103662
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7238,9 +7238,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 103663,
+                    "startOffset": 103667,
                     "endColumn": 93,
-                    "endOffset": 103752
+                    "endOffset": 103756
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7257,10 +7257,10 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 103757,
+                    "startOffset": 103761,
                     "endLine": 1366,
                     "endColumn": 12,
-                    "endOffset": 103892
+                    "endOffset": 103896
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7278,10 +7278,10 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 103897,
+                    "startOffset": 103901,
                     "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 104026
+                    "endOffset": 104030
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7299,9 +7299,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104031,
+                    "startOffset": 104035,
                     "endColumn": 95,
-                    "endOffset": 104122
+                    "endOffset": 104126
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7318,9 +7318,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104127,
+                    "startOffset": 104131,
                     "endColumn": 111,
-                    "endOffset": 104234
+                    "endOffset": 104238
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7337,9 +7337,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104239,
+                    "startOffset": 104243,
                     "endColumn": 99,
-                    "endOffset": 104334
+                    "endOffset": 104338
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7356,9 +7356,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104339,
+                    "startOffset": 104343,
                     "endColumn": 115,
-                    "endOffset": 104450
+                    "endOffset": 104454
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7375,9 +7375,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104455,
+                    "startOffset": 104459,
                     "endColumn": 95,
-                    "endOffset": 104546
+                    "endOffset": 104550
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7394,9 +7394,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104551,
+                    "startOffset": 104555,
                     "endColumn": 111,
-                    "endOffset": 104658
+                    "endOffset": 104662
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7413,10 +7413,10 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104663,
+                    "startOffset": 104667,
                     "endLine": 1376,
                     "endColumn": 12,
-                    "endOffset": 104798
+                    "endOffset": 104802
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7434,9 +7434,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 104803,
+                    "startOffset": 104807,
                     "endColumn": 135,
-                    "endOffset": 104934
+                    "endOffset": 104938
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7453,10 +7453,10 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104939,
+                    "startOffset": 104943,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 105098
+                    "endOffset": 105102
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7474,9 +7474,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105103,
+                    "startOffset": 105107,
                     "endColumn": 129,
-                    "endOffset": 105228
+                    "endOffset": 105232
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7493,10 +7493,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105233,
+                    "startOffset": 105237,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 105386
+                    "endOffset": 105390
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7514,10 +7514,10 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105391,
+                    "startOffset": 105395,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 105536
+                    "endOffset": 105540
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7535,9 +7535,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105541,
+                    "startOffset": 105545,
                     "endColumn": 140,
-                    "endOffset": 105677
+                    "endOffset": 105681
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7554,10 +7554,10 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105682,
+                    "startOffset": 105686,
                     "endLine": 1387,
                     "endColumn": 12,
-                    "endOffset": 105821
+                    "endOffset": 105825
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7575,9 +7575,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 105826,
+                    "startOffset": 105830,
                     "endColumn": 134,
-                    "endOffset": 105956
+                    "endOffset": 105960
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7594,9 +7594,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105961,
+                    "startOffset": 105965,
                     "endColumn": 111,
-                    "endOffset": 106068
+                    "endOffset": 106072
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7613,9 +7613,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106073,
+                    "startOffset": 106077,
                     "endColumn": 127,
-                    "endOffset": 106196
+                    "endOffset": 106200
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7632,10 +7632,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 106201,
+                    "startOffset": 106205,
                     "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 106332
+                    "endOffset": 106336
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7653,10 +7653,10 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106337,
+                    "startOffset": 106341,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 106474
+                    "endOffset": 106478
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7674,10 +7674,10 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106479,
+                    "startOffset": 106483,
                     "endLine": 1396,
                     "endColumn": 12,
-                    "endOffset": 106616
+                    "endOffset": 106620
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7695,9 +7695,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106621,
+                    "startOffset": 106625,
                     "endColumn": 111,
-                    "endOffset": 106728
+                    "endOffset": 106732
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7714,9 +7714,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106733,
+                    "startOffset": 106737,
                     "endColumn": 139,
-                    "endOffset": 106868
+                    "endOffset": 106872
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7733,9 +7733,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 106873,
+                    "startOffset": 106877,
                     "endColumn": 67,
-                    "endOffset": 106936
+                    "endOffset": 106940
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7752,9 +7752,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106941,
+                    "startOffset": 106945,
                     "endColumn": 72,
-                    "endOffset": 107009
+                    "endOffset": 107013
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7771,9 +7771,9 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107014,
+                    "startOffset": 107018,
                     "endColumn": 73,
-                    "endOffset": 107083
+                    "endOffset": 107087
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7790,9 +7790,9 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 107088,
+                    "startOffset": 107092,
                     "endColumn": 72,
-                    "endOffset": 107156
+                    "endOffset": 107160
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7809,9 +7809,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107161,
+                    "startOffset": 107165,
                     "endColumn": 73,
-                    "endOffset": 107230
+                    "endOffset": 107234
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7828,10 +7828,10 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107235,
+                    "startOffset": 107239,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 107376
+                    "endOffset": 107380
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7849,10 +7849,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107381,
+                    "startOffset": 107385,
                     "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 107520
+                    "endOffset": 107524
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7870,10 +7870,10 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107525,
+                    "startOffset": 107529,
                     "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 107658
+                    "endOffset": 107662
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7891,9 +7891,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 107663,
+                    "startOffset": 107667,
                     "endColumn": 65,
-                    "endOffset": 107724
+                    "endOffset": 107728
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7910,9 +7910,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 107729,
+                    "startOffset": 107733,
                     "endColumn": 89,
-                    "endOffset": 107814
+                    "endOffset": 107818
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7929,9 +7929,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 107819,
+                    "startOffset": 107823,
                     "endColumn": 75,
-                    "endOffset": 107890
+                    "endOffset": 107894
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7948,9 +7948,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 107895,
+                    "startOffset": 107899,
                     "endColumn": 103,
-                    "endOffset": 107994
+                    "endOffset": 107998
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7967,9 +7967,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 107999,
+                    "startOffset": 108003,
                     "endColumn": 89,
-                    "endOffset": 108084
+                    "endOffset": 108088
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7986,9 +7986,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 108089,
+                    "startOffset": 108093,
                     "endColumn": 101,
-                    "endOffset": 108186
+                    "endOffset": 108190
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8005,9 +8005,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108191,
+                    "startOffset": 108195,
                     "endColumn": 107,
-                    "endOffset": 108294
+                    "endOffset": 108298
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8024,9 +8024,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 108299,
+                    "startOffset": 108303,
                     "endColumn": 107,
-                    "endOffset": 108402
+                    "endOffset": 108406
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8043,9 +8043,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 108407,
+                    "startOffset": 108411,
                     "endColumn": 99,
-                    "endOffset": 108502
+                    "endOffset": 108506
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8062,9 +8062,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 108507,
+                    "startOffset": 108511,
                     "endColumn": 79,
-                    "endOffset": 108582
+                    "endOffset": 108586
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8081,9 +8081,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108587,
+                    "startOffset": 108591,
                     "endColumn": 91,
-                    "endOffset": 108674
+                    "endOffset": 108678
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8100,9 +8100,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 108679,
+                    "startOffset": 108683,
                     "endColumn": 97,
-                    "endOffset": 108772
+                    "endOffset": 108776
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8119,10 +8119,10 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108777,
+                    "startOffset": 108781,
                     "endLine": 1423,
                     "endColumn": 12,
-                    "endOffset": 108882
+                    "endOffset": 108886
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8140,9 +8140,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 108887,
+                    "startOffset": 108891,
                     "endColumn": 77,
-                    "endOffset": 108960
+                    "endOffset": 108964
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8159,9 +8159,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 108965,
+                    "startOffset": 108969,
                     "endColumn": 105,
-                    "endOffset": 109066
+                    "endOffset": 109070
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8178,9 +8178,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109071,
+                    "startOffset": 109075,
                     "endColumn": 91,
-                    "endOffset": 109158
+                    "endOffset": 109162
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8197,9 +8197,9 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109163,
+                    "startOffset": 109167,
                     "endColumn": 103,
-                    "endOffset": 109262
+                    "endOffset": 109266
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8216,9 +8216,9 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 109267,
+                    "startOffset": 109271,
                     "endColumn": 109,
-                    "endOffset": 109372
+                    "endOffset": 109376
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8235,10 +8235,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109377,
+                    "startOffset": 109381,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 109494
+                    "endOffset": 109498
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8256,10 +8256,10 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109499,
+                    "startOffset": 109503,
                     "endLine": 1434,
                     "endColumn": 12,
-                    "endOffset": 109657
+                    "endOffset": 109661
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8277,10 +8277,10 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109662,
+                    "startOffset": 109666,
                     "endLine": 1438,
                     "endColumn": 12,
-                    "endOffset": 109814
+                    "endOffset": 109818
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8298,9 +8298,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109819,
+                    "startOffset": 109823,
                     "endColumn": 79,
-                    "endOffset": 109894
+                    "endOffset": 109898
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8317,9 +8317,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 109899,
+                    "startOffset": 109903,
                     "endColumn": 99,
-                    "endOffset": 109994
+                    "endOffset": 109998
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8336,9 +8336,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 109999,
+                    "startOffset": 110003,
                     "endColumn": 89,
-                    "endOffset": 110084
+                    "endOffset": 110088
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8355,9 +8355,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110089,
+                    "startOffset": 110093,
                     "endColumn": 109,
-                    "endOffset": 110194
+                    "endOffset": 110198
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8374,9 +8374,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110199,
+                    "startOffset": 110203,
                     "endColumn": 91,
-                    "endOffset": 110286
+                    "endOffset": 110290
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8393,10 +8393,10 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110291,
+                    "startOffset": 110295,
                     "endLine": 1445,
                     "endColumn": 12,
-                    "endOffset": 110386
+                    "endOffset": 110390
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8414,10 +8414,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110391,
+                    "startOffset": 110395,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 110498
+                    "endOffset": 110502
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8435,10 +8435,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 110503,
+                    "startOffset": 110507,
                     "endLine": 1449,
                     "endColumn": 12,
-                    "endOffset": 110612
+                    "endOffset": 110616
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8456,10 +8456,10 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 110617,
+                    "startOffset": 110621,
                     "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 110728
+                    "endOffset": 110732
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8477,10 +8477,10 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 110733,
+                    "startOffset": 110737,
                     "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 110844
+                    "endOffset": 110848
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8498,9 +8498,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 110849,
+                    "startOffset": 110853,
                     "endColumn": 93,
-                    "endOffset": 110938
+                    "endOffset": 110942
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8517,9 +8517,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 110943,
+                    "startOffset": 110947,
                     "endColumn": 113,
-                    "endOffset": 111052
+                    "endOffset": 111056
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8536,9 +8536,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111057,
+                    "startOffset": 111061,
                     "endColumn": 111,
-                    "endOffset": 111164
+                    "endOffset": 111168
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8555,10 +8555,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111169,
+                    "startOffset": 111173,
                     "endLine": 1458,
                     "endColumn": 12,
-                    "endOffset": 111266
+                    "endOffset": 111270
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8576,10 +8576,10 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 111271,
+                    "startOffset": 111275,
                     "endLine": 1460,
                     "endColumn": 12,
-                    "endOffset": 111386
+                    "endOffset": 111390
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8597,10 +8597,10 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 111391,
+                    "startOffset": 111395,
                     "endLine": 1462,
                     "endColumn": 12,
-                    "endOffset": 111508
+                    "endOffset": 111512
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8618,9 +8618,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 111513,
+                    "startOffset": 111517,
                     "endColumn": 81,
-                    "endOffset": 111590
+                    "endOffset": 111594
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8637,9 +8637,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111595,
+                    "startOffset": 111599,
                     "endColumn": 103,
-                    "endOffset": 111694
+                    "endOffset": 111698
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8656,9 +8656,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 111699,
+                    "startOffset": 111703,
                     "endColumn": 119,
-                    "endOffset": 111814
+                    "endOffset": 111818
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8675,9 +8675,9 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 111819,
+                    "startOffset": 111823,
                     "endColumn": 125,
-                    "endOffset": 111940
+                    "endOffset": 111944
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8694,9 +8694,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 111945,
+                    "startOffset": 111949,
                     "endColumn": 97,
-                    "endOffset": 112038
+                    "endOffset": 112042
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8713,9 +8713,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 112043,
+                    "startOffset": 112047,
                     "endColumn": 93,
-                    "endOffset": 112132
+                    "endOffset": 112136
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8732,9 +8732,9 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 112137,
+                    "startOffset": 112141,
                     "endColumn": 87,
-                    "endOffset": 112220
+                    "endOffset": 112224
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8751,9 +8751,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 112225,
+                    "startOffset": 112229,
                     "endColumn": 111,
-                    "endOffset": 112332
+                    "endOffset": 112336
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8770,9 +8770,9 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 112337,
+                    "startOffset": 112341,
                     "endColumn": 115,
-                    "endOffset": 112448
+                    "endOffset": 112452
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8789,9 +8789,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 112453,
+                    "startOffset": 112457,
                     "endColumn": 121,
-                    "endOffset": 112570
+                    "endOffset": 112574
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8808,9 +8808,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 112575,
+                    "startOffset": 112579,
                     "endColumn": 111,
-                    "endOffset": 112682
+                    "endOffset": 112686
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8827,10 +8827,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112687,
+                    "startOffset": 112691,
                     "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 112857
+                    "endOffset": 112861
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8848,9 +8848,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112862,
+                    "startOffset": 112866,
                     "endColumn": 115,
-                    "endOffset": 112973
+                    "endOffset": 112977
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8867,9 +8867,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 112978,
+                    "startOffset": 112982,
                     "endColumn": 85,
-                    "endOffset": 113059
+                    "endOffset": 113063
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8886,9 +8886,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 113064,
+                    "startOffset": 113068,
                     "endColumn": 91,
-                    "endOffset": 113151
+                    "endOffset": 113155
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8905,10 +8905,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 113156,
+                    "startOffset": 113160,
                     "endLine": 1481,
                     "endColumn": 12,
-                    "endOffset": 113263
+                    "endOffset": 113267
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8926,10 +8926,10 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 113268,
+                    "startOffset": 113272,
                     "endLine": 1483,
                     "endColumn": 12,
-                    "endOffset": 113387
+                    "endOffset": 113391
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8947,9 +8947,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 113392,
+                    "startOffset": 113396,
                     "endColumn": 66,
-                    "endOffset": 113454
+                    "endOffset": 113458
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8966,10 +8966,10 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 113459,
+                    "startOffset": 113463,
                     "endLine": 1486,
                     "endColumn": 12,
-                    "endOffset": 113580
+                    "endOffset": 113584
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8987,9 +8987,9 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113585,
+                    "startOffset": 113589,
                     "endColumn": 67,
-                    "endOffset": 113648
+                    "endOffset": 113652
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9006,10 +9006,10 @@
                 "to": {
                     "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 113653,
+                    "startOffset": 113657,
                     "endLine": 1489,
                     "endColumn": 12,
-                    "endOffset": 113776
+                    "endOffset": 113780
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9027,10 +9027,10 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113781,
+                    "startOffset": 113785,
                     "endLine": 1491,
                     "endColumn": 12,
-                    "endOffset": 113920
+                    "endOffset": 113924
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9048,10 +9048,10 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 113925,
+                    "startOffset": 113929,
                     "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 114048
+                    "endOffset": 114052
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9069,9 +9069,9 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 114053,
+                    "startOffset": 114057,
                     "endColumn": 68,
-                    "endOffset": 114117
+                    "endOffset": 114121
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9088,9 +9088,9 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 114122,
+                    "startOffset": 114126,
                     "endColumn": 94,
-                    "endOffset": 114212
+                    "endOffset": 114216
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9107,9 +9107,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 114217,
+                    "startOffset": 114221,
                     "endColumn": 114,
-                    "endOffset": 114327
+                    "endOffset": 114331
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9126,9 +9126,9 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114332,
+                    "startOffset": 114336,
                     "endColumn": 112,
-                    "endOffset": 114440
+                    "endOffset": 114444
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9145,9 +9145,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 114445,
+                    "startOffset": 114449,
                     "endColumn": 98,
-                    "endOffset": 114539
+                    "endOffset": 114543
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9164,9 +9164,9 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114544,
+                    "startOffset": 114548,
                     "endColumn": 108,
-                    "endOffset": 114648
+                    "endOffset": 114652
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9183,9 +9183,9 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 114653,
+                    "startOffset": 114657,
                     "endColumn": 110,
-                    "endOffset": 114759
+                    "endOffset": 114763
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9202,9 +9202,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114764,
+                    "startOffset": 114768,
                     "endColumn": 110,
-                    "endOffset": 114870
+                    "endOffset": 114874
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9221,9 +9221,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 114875,
+                    "startOffset": 114879,
                     "endColumn": 100,
-                    "endOffset": 114971
+                    "endOffset": 114975
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9240,9 +9240,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 114976,
+                    "startOffset": 114980,
                     "endColumn": 104,
-                    "endOffset": 115076
+                    "endOffset": 115080
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9259,10 +9259,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 115081,
+                    "startOffset": 115085,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 115188
+                    "endOffset": 115192
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9280,10 +9280,10 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 115193,
+                    "startOffset": 115197,
                     "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 115318
+                    "endOffset": 115322
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9301,9 +9301,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 115323,
+                    "startOffset": 115327,
                     "endColumn": 90,
-                    "endOffset": 115409
+                    "endOffset": 115413
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9320,9 +9320,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 115414,
+                    "startOffset": 115418,
                     "endColumn": 122,
-                    "endOffset": 115532
+                    "endOffset": 115536
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9339,10 +9339,10 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 115537,
+                    "startOffset": 115541,
                     "endLine": 1511,
                     "endColumn": 12,
-                    "endOffset": 115644
+                    "endOffset": 115648
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9360,9 +9360,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 115649,
+                    "startOffset": 115653,
                     "endColumn": 85,
-                    "endOffset": 115730
+                    "endOffset": 115734
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9379,9 +9379,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115735,
+                    "startOffset": 115739,
                     "endColumn": 103,
-                    "endOffset": 115834
+                    "endOffset": 115838
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9398,10 +9398,10 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 115839,
+                    "startOffset": 115843,
                     "endLine": 1515,
                     "endColumn": 12,
-                    "endOffset": 115942
+                    "endOffset": 115946
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9419,10 +9419,10 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 115947,
+                    "startOffset": 115951,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 116042
+                    "endOffset": 116046
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9440,10 +9440,10 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 116047,
+                    "startOffset": 116051,
                     "endLine": 1519,
                     "endColumn": 12,
-                    "endOffset": 116160
+                    "endOffset": 116164
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9461,10 +9461,10 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 116165,
+                    "startOffset": 116169,
                     "endLine": 1521,
                     "endColumn": 12,
-                    "endOffset": 116264
+                    "endOffset": 116268
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9482,10 +9482,10 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 116269,
+                    "startOffset": 116273,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 116368
+                    "endOffset": 116372
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9503,10 +9503,10 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116373,
+                    "startOffset": 116377,
                     "endLine": 1525,
                     "endColumn": 12,
-                    "endOffset": 116494
+                    "endOffset": 116498
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9524,9 +9524,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 116499,
+                    "startOffset": 116503,
                     "endColumn": 87,
-                    "endOffset": 116582
+                    "endOffset": 116586
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9543,9 +9543,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 116587,
+                    "startOffset": 116591,
                     "endColumn": 107,
-                    "endOffset": 116690
+                    "endOffset": 116694
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9562,9 +9562,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 116695,
+                    "startOffset": 116699,
                     "endColumn": 99,
-                    "endOffset": 116790
+                    "endOffset": 116794
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9581,9 +9581,9 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 116795,
+                    "startOffset": 116799,
                     "endColumn": 89,
-                    "endOffset": 116880
+                    "endOffset": 116884
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9600,9 +9600,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 116885,
+                    "startOffset": 116889,
                     "endColumn": 109,
-                    "endOffset": 116990
+                    "endOffset": 116994
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9619,9 +9619,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 116995,
+                    "startOffset": 116999,
                     "endColumn": 83,
-                    "endOffset": 117074
+                    "endOffset": 117078
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9638,9 +9638,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 117079,
+                    "startOffset": 117083,
                     "endColumn": 83,
-                    "endOffset": 117158
+                    "endOffset": 117162
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9657,9 +9657,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 117163,
+                    "startOffset": 117167,
                     "endColumn": 53,
-                    "endOffset": 117212
+                    "endOffset": 117216
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9676,9 +9676,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 117217,
+                    "startOffset": 117221,
                     "endColumn": 63,
-                    "endOffset": 117276
+                    "endOffset": 117280
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9695,9 +9695,9 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 117281,
+                    "startOffset": 117285,
                     "endColumn": 105,
-                    "endOffset": 117382
+                    "endOffset": 117386
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9714,9 +9714,9 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 117387,
+                    "startOffset": 117391,
                     "endColumn": 109,
-                    "endOffset": 117492
+                    "endOffset": 117496
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9733,9 +9733,9 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 117497,
+                    "startOffset": 117501,
                     "endColumn": 83,
-                    "endOffset": 117576
+                    "endOffset": 117580
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9752,9 +9752,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 117581,
+                    "startOffset": 117585,
                     "endColumn": 119,
-                    "endOffset": 117696
+                    "endOffset": 117700
                 },
                 "from": {
                     "file": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",

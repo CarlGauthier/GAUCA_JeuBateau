@@ -1,6 +1,8 @@
 package dicjinfo.mygame;
 
 import android.content.Context;
+import android.media.AudioManager;
+import android.media.SoundPool;
 
 public class Player extends CollidableGameObject {
 
@@ -16,16 +18,20 @@ public class Player extends CollidableGameObject {
     float gyroMovement;
     boolean screenTouch;
 
-    //
     float velX, velY;
     int animationFrame = 0;
     private int waveFrameCount = 0;
     boolean invincible = false;
 
+    SoundPool soundPool;
+    int canonblast;
+
     int health = 0;
 
     public Player() {
         super(R.drawable.terry, 400, 0, 125, 222, 125, 260, true);
+        soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
+        canonblast = soundPool.load(GameActivity.getAppContext(), R.raw.weber, 1);
     }
 
     @Override
@@ -101,7 +107,7 @@ public class Player extends CollidableGameObject {
     }
 
     private void shoot() {
-
+        soundPool.play(canonblast,1,1,0,0,0);
         Canonball canonball = new Canonball(x + 12.5f, y);
         gameObjectArray.add(canonball);
         dynamicArray.add(canonball);

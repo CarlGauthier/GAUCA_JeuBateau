@@ -17,6 +17,8 @@ import android.view.View;
 
 public class GameActivity extends AppCompatActivity implements SensorEventListener{
 
+    private static Context context;
+
     boolean baseSet = false;
     private GameView gameView;
 
@@ -27,6 +29,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        this.context = getApplicationContext();
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         gyro = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         Display display = getWindowManager().getDefaultDisplay();
@@ -71,5 +74,9 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
         sensorManager.registerListener(this, gyro, SensorManager.SENSOR_DELAY_UI);
         super.onResume();
         gameView.resume();
+    }
+
+    public static Context getAppContext() {
+        return context;
     }
 }

@@ -7,6 +7,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.media.MediaPlayer;
 import android.util.AttributeSet;
 import android.view.Display;
 import android.view.MotionEvent;
@@ -70,6 +71,7 @@ public class GameView extends SurfaceView implements Runnable {
         spriteMap.put(R.drawable.octo, BitmapFactory.decodeResource(context.getResources(), R.drawable.octo));
         spriteMap.put(R.drawable.canonball, BitmapFactory.decodeResource(context.getResources(), R.drawable.canonball));
         spriteMap.put(R.drawable.coin, BitmapFactory.decodeResource(context.getResources(), R.drawable.coin));
+        spriteMap.put(R.drawable.heart, BitmapFactory.decodeResource(context.getResources(), R.drawable.heart));
 
         //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
 
@@ -78,6 +80,11 @@ public class GameView extends SurfaceView implements Runnable {
         for(int i = 0; i < 10; i++) {
             Rock rock = new Rock(random.nextInt(1000),-200 * i + 100, 100, 100);
             GameObject.getGameObjectArray().add(rock);
+        }
+        for(int i = 0; i < 10; i++) {
+            Heart heart = new Heart(random.nextInt(1000),-200 * i + 100);
+            GameObject.getGameObjectArray().add(heart);
+            GameObject.getDynamicArray().add(heart);
         }
         for(int i = 0; i < 10; i++) {
             DestroyableRock destroyableRock = new DestroyableRock(random.nextInt(1000),-200 * i - 2100, 100, 100);

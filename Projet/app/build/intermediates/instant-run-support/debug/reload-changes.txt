@@ -1,2 +1,6 @@
+CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\R$raw$override.class
+CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\R$style$override.class
+CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\Player$override.class
 CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\Popcorn$override.class
+CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\R$string$override.class
+CHANGED,C:\AndroidStudioProjects\GAUCA_JeuBateau\Projet\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\dicjinfo\mygame\R$styleable$override.class
