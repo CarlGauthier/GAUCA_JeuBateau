@@ -6,39 +6,30 @@ public class Canonball extends CollidableGameObject{
     float velY = -50;
 
     public Canonball(float x, float y) {
-        super(R.drawable.canonball, x, y, 100, 100, 0, 0, false);
+        super(R.drawable.canonball, x, y, 0, 0);
+        collider = new Collider(100, 100, true, this);
     }
 
     @Override
-    public void update() {
+    public void action() {
 
         y += velY;
         if(frameCount < 5) {
-            rWidth += 40;
-            rHeight += 40;
-            updateRenderValues();
+            stretchX(40);
+            stretchY(40);
         } else if(frameCount == 100) {
             gameObjectArray.remove(this);
-            dynamicArray.remove(this);
         }
         frameCount++;
     }
 
     @Override
-    public void onCollision(GameObject gameObject) {
-
-        if(gameObject.isSolid() && !(gameObject instanceof Player))
-        {
-            if(gameObject instanceof Octo || gameObject instanceof DestroyableRock) {
-                if(gameObject instanceof Octo)
-                    dynamicArray.remove(gameObject);
-                gameObjectArray.remove(gameObject);
-            } else if(gameObject instanceof Popcorn) {
-                gameObjectArray.remove(gameObject);
-                dynamicArray.remove(gameObject);
+    protected void onCollision(CollidableGameObject cgo) {
+        if(cgo.collider.isSolid()) {
+            if(!(cgo instanceof Player) && !(cgo instanceof Popcorn)) {
+                gameObjectArray.add(new Explosion(x, y));
+                gameObjectArray.remove(this);
             }
-            gameObjectArray.remove(this);
-            dynamicArray.remove(this);
         }
     }
 }

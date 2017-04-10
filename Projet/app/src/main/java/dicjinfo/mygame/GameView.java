@@ -72,6 +72,7 @@ public class GameView extends SurfaceView implements Runnable {
         spriteMap.put(R.drawable.canonball, BitmapFactory.decodeResource(context.getResources(), R.drawable.canonball));
         spriteMap.put(R.drawable.coin, BitmapFactory.decodeResource(context.getResources(), R.drawable.coin));
         spriteMap.put(R.drawable.heart, BitmapFactory.decodeResource(context.getResources(), R.drawable.heart));
+        spriteMap.put(R.drawable.explosion, BitmapFactory.decodeResource(context.getResources(), R.drawable.explosion));
 
         //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
 
@@ -84,7 +85,6 @@ public class GameView extends SurfaceView implements Runnable {
         for(int i = 0; i < 10; i++) {
             Heart heart = new Heart(random.nextInt(1000),-200 * i + 100);
             GameObject.getGameObjectArray().add(heart);
-            GameObject.getDynamicArray().add(heart);
         }
         for(int i = 0; i < 10; i++) {
             DestroyableRock destroyableRock = new DestroyableRock(random.nextInt(1000),-200 * i - 2100, 100, 100);
@@ -93,12 +93,10 @@ public class GameView extends SurfaceView implements Runnable {
         for(int i = 0; i < 10; i++) {
             Octo octo = new Octo(random.nextInt(1000),-200 * i - 4100);
             GameObject.getGameObjectArray().add(octo);
-            GameObject.getDynamicArray().add(octo);
         }
 
         player = new Player();
         GameObject.getGameObjectArray().add(1,player);
-        GameObject.getDynamicArray().add(1,player);
     }
 
     @Override
@@ -113,12 +111,18 @@ public class GameView extends SurfaceView implements Runnable {
 
     @Override
     public void run() {
-
+        final long frameMs = 1000 / 60;
         while (playing) {
+            long startMs, endMs, delayMs;
+            startMs = System.currentTimeMillis();
             update();
             draw();
+            endMs = System.currentTimeMillis();
+            delayMs = frameMs - ( endMs - startMs);
+            if(delayMs < 0)
+                delayMs = 0;
             try {
-                gameThread.sleep(16);
+                gameThread.sleep(delayMs);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -130,22 +134,9 @@ public class GameView extends SurfaceView implements Runnable {
         player.setGyroMovement(gyroMovement);
 
         //Update all IDynamics
-        for(int i = 0; i < GameObject.getDynamicArray().size(); i++) {
-            IDynamic dgo = GameObject.getDynamicArray().get(i);
-            dgo.update();
-        }
-        //Collision checks
-        for(int i = 0; i < GameObject.getCollidableArray().size(); i++)
-        {
-            CollidableGameObject cgo = GameObject.getCollidableArray().get(i);
-            for (int j = 0; j < GameObject.getGameObjectArray().size(); j++)
-            {
-                GameObject gameObject = GameObject.getGameObjectArray().get(j);
-                    if(cgo == gameObject)
-                        continue;
-                    cgo.checkCollision(GameObject.getGameObjectArray().get(j));
-
-            }
+        for(int i = 0; i < GameObject.getGameObjectArray().size(); i++) {
+            GameObject go = GameObject.getGameObjectArray().get(i);
+            go.update();
         }
         scrollY = player.getY() - SCREEN_HEIGHT + 500;
     }
@@ -161,33 +152,30 @@ public class GameView extends SurfaceView implements Runnable {
                 Bitmap sprite = spriteMap.get(gameObject.getDrawableId());
                 Paint paint = new Paint();
                 paint.setAlpha(gameObject.getOpacity());
-                //int x = gameObject.getX() - gameObject.getDrx();
                 canvas.drawBitmap(
                     sprite,
                     new Rect(0,0,sprite.getWidth(),sprite.getHeight()),
                     new Rect(
-                        (int)gameObject.getX() - gameObject.getDrx(),
-                        (int)(gameObject.getY() - scrollY - gameObject.getDry()),
-                        (int)(gameObject.getrWidth() + gameObject.getX() - gameObject.getDrx()),
-                        (int)(gameObject.getrHeight() - scrollY + gameObject.getY() - gameObject.getDry())
+                        (int)gameObject.getX(),
+                        (int)(gameObject.getY() - scrollY),
+                        (int)(gameObject.getWidth() + gameObject.getX()),
+                        (int)(gameObject.getHeight() + gameObject.getY() - scrollY)
                     ),
                     paint
                 );
-
-
                 /*
                 paint.setARGB(255,255,255,255);
-
-                canvas.drawRect(
-                    (int)gameObject.getX(),
-                    (int)gameObject.getY() - scrollY,
-                    (int)gameObject.getX() + gameObject.getWidth(),
-                    (int)gameObject.getY() + gameObject.getHeight() - scrollY,
-                    paint
-                );
+                if(gameObject instanceof CollidableGameObject) {
+                    CollidableGameObject collidableGameObject = (CollidableGameObject)gameObject;
+                    canvas.drawRect(
+                            (int)collidableGameObject.collider.getX(),
+                            (int)collidableGameObject.collider.getY() - scrollY,
+                            (int)collidableGameObject.collider.getX() + collidableGameObject.collider.getWidth(),
+                            (int)collidableGameObject.collider.getY() + collidableGameObject.collider.getHeight() - scrollY,
+                            paint
+                    );
+                }
                 */
-
-
             }
             surfaceHolder.unlockCanvasAndPost(canvas);
         }

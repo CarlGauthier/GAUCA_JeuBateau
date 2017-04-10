@@ -2,46 +2,46 @@ package dicjinfo.mygame;
 
 import android.content.Context;
 
-public abstract class CollidableGameObject extends GameObject implements IDynamic{
+public abstract class CollidableGameObject extends GameObject{
 
-    public CollidableGameObject(int drawableId, float x, float y, float width, float height, int rWidth, int rHeight, boolean solid) {
-        super(drawableId, x, y, width, height, rWidth, rHeight, solid);
-        collidableArray.add(this);
+    public Collider getCollider() {
+        return collider;
     }
 
-    public CollidableGameObject(int drawingId, float x, float y, float width, float height, boolean solid) {
-        super(drawingId, x, y, width, height, solid);
-        collidableArray.add(this);
+    public void setCollider(Collider collider) {
+        this.collider = collider;
     }
 
-    public void checkCollision(GameObject gameObject) {
-        int w = (int)(0.5 * (width + gameObject.getWidth()));
-        int h = (int)(0.5 * (height + gameObject.getHeight()));
+    Collider collider;
 
-        int dx = (int)((width / 2 + x) - (gameObject.getWidth() / 2 + gameObject.getX()));
-        int dy = (int)((height / 2 + y) - (gameObject.getHeight() / 2 + gameObject.getY()));
+    public CollidableGameObject(int drawableId, float x, float y, float width, float height) {
+        super(drawableId, x, y, width, height);
+        this.collider = collider;
+    }
 
-        if (Math.abs(dx) < w && Math.abs(dy) < h)
+    @Override
+    public void update() {
+        action();
+        collider.update();
+        checkCollision();
+    }
+
+    private void checkCollision() {
+        for(int i = 0; i < gameObjectArray.size(); i++)
         {
-            if(gameObject.isSolid() && solid)
-            {
-                float wy = w * dy;
-                float hx = h * dx;
-
-                if (wy > hx)
-                    if (wy > -hx)
-                        y = gameObject.getY() + gameObject.getHeight();
-                    else
-                        x = gameObject.getX() - width;
-                else
-                if (wy > -hx)
-                    x = gameObject.getX() + gameObject.getWidth();
-                else
-                    y = gameObject.getY() - height;
+            GameObject go = gameObjectArray.get(i);
+            if(go instanceof CollidableGameObject && go != this) {
+                CollidableGameObject cgo = (CollidableGameObject)go;
+                Collider otherCollider = cgo.getCollider();
+                if(collider.isColliding(otherCollider)) {
+                    onCollision(cgo);
+                    cgo.onCollision(this);
+                }
             }
-            onCollision(gameObject);
         }
     }
 
-    public abstract void onCollision(GameObject gameObject);
+    protected void onCollision(CollidableGameObject cgo) {
+
+    }
 }

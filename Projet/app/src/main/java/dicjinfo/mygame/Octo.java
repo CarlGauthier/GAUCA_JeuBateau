@@ -1,16 +1,17 @@
 package dicjinfo.mygame;
 
-public class Octo extends GameObject implements IDynamic {
+public class Octo extends CollidableGameObject{
 
     int frameCount = 0;
     Boolean animeMode = false;
 
     public Octo(float x, float y) {
-        super(R.drawable.octo, x, y, 100, 100, 140, 120, true);
+        super(R.drawable.octo, x, y, 100, 100);
+        collider = new Collider(100, 100, true, this);
     }
 
     @Override
-    public void update() {
+    public void action() {
         emission();
         animate();
         if(frameCount == 75)
@@ -25,17 +26,16 @@ public class Octo extends GameObject implements IDynamic {
 
     private void animate() {
         if(animeMode) {
-            rWidth+=2;
-            rHeight-=2;
-            if(rWidth >= 160)
+            stretchX(2);
+            stretchY(-2);
+            if(width >= 160)
                 animeMode = false;
         } else {
-            rWidth-=2;
-            rHeight+=2;
-            if(rHeight >= 140)
+            stretchX(-2);
+            stretchY(2);
+            if(height >= 140)
                 animeMode = true;
         }
-        updateRenderValues();
     }
 
     private void emitPopcorn() {
@@ -45,11 +45,18 @@ public class Octo extends GameObject implements IDynamic {
             Popcorn popcorn = new Popcorn(
                     x + width / 2 - 25,
                     y + height / 2 - 25,
-                    (player.x - x) / 30,
-                    (player.y - y) / 30
+                    (player.x - x) / 50,
+                    (player.y - y) / 50
             );
             gameObjectArray.add(popcorn);
-            dynamicArray.add(popcorn);
+        }
+    }
+
+    @Override
+    protected void onCollision(CollidableGameObject cgo) {
+        if(!(cgo instanceof Popcorn)) {
+            gameObjectArray.add(new Explosion(x, y));
+            gameObjectArray.remove(this);
         }
     }
 }

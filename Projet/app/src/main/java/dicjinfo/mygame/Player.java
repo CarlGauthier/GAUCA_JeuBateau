@@ -23,19 +23,17 @@ public class Player extends CollidableGameObject {
     private int waveFrameCount = 0;
     boolean invincible = false;
 
-    SoundPool soundPool;
+    //Sound
     int canonblast;
 
-    int health = 0;
-
     public Player() {
-        super(R.drawable.terry, 400, 0, 125, 222, 125, 260, true);
-        soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
-        canonblast = soundPool.load(GameActivity.getAppContext(), R.raw.weber, 1);
+        super(R.drawable.terry, 400, 0, 125, 260);
+        collider = new Collider(125, 222, true, this);
+        canonblast = soundPool.load(GameActivity.getAppContext(), R.raw.canonblast, 1);
     }
 
     @Override
-    public void update() {
+    public void action() {
 
         move();
         checkBound();
@@ -68,7 +66,7 @@ public class Player extends CollidableGameObject {
     }
 
     private void move() {
-        if(velY > -10)
+        if(velY > -7)
             velY-= 1;
         velX *= 0.95;
         velY *= 0.95;
@@ -98,37 +96,30 @@ public class Player extends CollidableGameObject {
 
     private void waveEmission() {
         waveFrameCount++;
-        if(waveFrameCount > 6) {
-            Wave wave = new Wave(x + rWidth / 2, y + rHeight / 2);
+        if(waveFrameCount > 10) {
+            Wave wave = new Wave(x + width / 2, y + height / 2);
             gameObjectArray.add(gameObjectArray.indexOf(this), wave);
-            dynamicArray.add(wave);
             waveFrameCount = 0;
         }
     }
 
     private void shoot() {
         soundPool.play(canonblast,1,1,0,0,0);
-        Canonball canonball = new Canonball(x + 12.5f, y);
+        Canonball canonball = new Canonball(x + 62.5f, y + 50);
         gameObjectArray.add(canonball);
-        dynamicArray.add(canonball);
     }
 
     @Override
-    public void onCollision(GameObject gameObject)
+    protected void onCollision(CollidableGameObject cgo)
     {
-        if(gameObject.isSolid())
+        if(cgo.collider.isSolid() && !(cgo instanceof Canonball))
         {
-            int dx = (int)((width / 2 + x) - (gameObject.getWidth() / 2 + gameObject.getX()));
-            int dy = (int)((height / 2 + y) - (gameObject.getHeight() / 2 + gameObject.getY()));
+            int dx = (int)((width / 2 + x) - (cgo.getWidth() / 2 + cgo.getX()));
+            int dy = (int)((height / 2 + y) - (cgo.getHeight() / 2 + cgo.getY()));
             velX += dx / 2;
             velY += dy / 2;
             invincible = true;
-            opacity = 0;
-            health--;
-
-            gameObjectArray.remove(gameObject);
-            if(gameObject instanceof IDynamic)
-                dynamicArray.remove(gameObject);
+            opacity = 255;
         }
     }
 }

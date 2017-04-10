@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
+import android.media.AudioManager;
+import android.media.SoundPool;
 
 import java.util.ArrayList;
 
@@ -22,93 +24,54 @@ public abstract class GameObject {
 
     public float getHeight() { return height; }
 
-    public int getDrx() {
-        return drx;
-    }
-
-    public int getDry() {
-        return dry;
-    }
-
-    public int getrHeight() {
-        return rHeight;
-    }
-
-    public int getrWidth() {
-        return rWidth;
-    }
-
     public int getDrawableId() { return drawableId; }
 
     public int getOpacity() {
         return opacity;
     }
 
-    public boolean isSolid() { return solid; }
-
     public static ArrayList<GameObject> getGameObjectArray() {
         return gameObjectArray;
     }
 
-    public static ArrayList<IDynamic> getDynamicArray() {
-        return dynamicArray;
-    }
-
-    public static ArrayList<CollidableGameObject> getCollidableArray() {
-        return collidableArray;
-    }
-
     static protected ArrayList<GameObject> gameObjectArray;
-    static protected ArrayList<CollidableGameObject> collidableArray;
-    static protected ArrayList<IDynamic> dynamicArray;
+    static protected SoundPool soundPool;
 
     static {
         gameObjectArray = new ArrayList<GameObject>();
-        collidableArray = new ArrayList<CollidableGameObject>();
-        dynamicArray = new ArrayList<IDynamic>();
+        soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
     }
 
     protected int drawableId;
-
-    //render values
     protected int opacity;
-    protected int drx = 0;
-    protected int dry = 0;
-    protected int rWidth, rHeight;
-
     protected float x, y;
     protected float width, height;
-    protected boolean solid;
 
-    public GameObject(int drawableId, float x, float y, float width, float height, int rWidth, int rHeight, boolean solid) {
-
-        this.drawableId = drawableId;
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.height = height;
-        this.rWidth = rWidth;
-        this.rHeight = rHeight;
-        this.solid = solid;
-        opacity = 255;
-        updateRenderValues();
-    }
-
-    public GameObject(int drawableId, float x, float y, float width, float height, boolean solid) {
+    public GameObject(int drawableId, float x, float y, float width, float height) {
 
         this.drawableId = drawableId;
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
-        this.rWidth = (int)width;
-        this.rHeight = (int)height;
-        this.solid = solid;
         opacity = 255;
     }
 
-    protected void updateRenderValues() {
-        drx = (rWidth - (int)width) / 2;
-        dry = (rHeight - (int)height) / 2;
+    protected void stretchX(float value) {
+        width += value;
+        x -= value / 2;
+    }
+
+    protected void stretchY(float value) {
+        height += value;
+        y -= value / 2;
+    }
+
+    public void update() {
+        action();
+    }
+
+    public void action() {
+
     }
 }

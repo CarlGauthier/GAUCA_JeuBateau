@@ -1,28 +1,28 @@
 package dicjinfo.mygame;
 
-public class Heart extends GameObject implements IDynamic {
+public class Heart extends CollidableGameObject {
 
     int frameCount = 0;
     Boolean animeMode = false;
 
     public Heart(float x, float y) {
-        super(R.drawable.heart, x, y, 50, 50, 50, 50, false);
+        super(R.drawable.heart, x, y, 50, 50);
+        collider = new Collider(50, 50, false, this);
     }
 
     @Override
-    public void update() {
+    public void action() {
 
         if(animeMode) {
-            rHeight++;
-            rWidth++;
-            if(rWidth >= 60 )
+            stretchX(1);
+            stretchY(1);
+            if(width >= 60 )
                 animeMode = false;
         } else {
-            rHeight--;
-            rWidth--;
-            if(rWidth <= 40)
+            stretchX(-1);
+            stretchY(-1);
+            if(width <= 40)
                 animeMode = true;
         }
-        updateRenderValues();
     }
 }
