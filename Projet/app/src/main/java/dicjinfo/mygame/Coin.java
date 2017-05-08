@@ -6,7 +6,7 @@ public class Coin extends CollidableGameObject {
     Boolean animeMode = false;
 
     public Coin(float x, float y) {
-        super(R.drawable.coin, x, y, 50, 50);
+        super(R.drawable.coin, x, y, 50, 50, 2);
         collider = new Collider(50, 50, false, this);
     }
 

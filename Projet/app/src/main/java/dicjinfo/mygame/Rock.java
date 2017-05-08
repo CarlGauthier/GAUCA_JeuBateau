@@ -2,10 +2,15 @@ package dicjinfo.mygame;
 
 import android.content.Context;
 
+import org.simpleframework.xml.Element;
+
+@Element
 public class Rock extends CollidableGameObject {
 
-    public Rock(float x, float y, float width, float height) {
-        super(R.drawable.rock, x, y, width, height);
-        collider = new Collider(width * 0.8f, height * 0.6f, true, this);
+    public Rock() {
+        drawableId = R.drawable.rock;
+        width = 100;
+        height = 120;
+        collider = new Collider(80, 70, true, this);
     }
 }

@@ -1,6 +1,8 @@
 package dicjinfo.mygame;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -15,6 +17,11 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
+
+import java.io.File;
+import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Dictionary;
@@ -30,14 +37,9 @@ public class GameView extends SurfaceView implements Runnable {
     }
 
     public void updateGyroDifference(float gyroPosition) {
-
         this.gyroMovement = gyroBase - gyroPosition;
     }
 
-    private final int SCREEN_WIDTH;
-    private final int SCREEN_HEIGHT;
-
-    private Player player;
     volatile boolean playing = true;
     private Thread gameThread = null;
 
@@ -48,19 +50,22 @@ public class GameView extends SurfaceView implements Runnable {
     private Paint paint;
     private Canvas canvas;
     private SurfaceHolder surfaceHolder;
-    private float scrollY = 0;
 
     //Sensors values
     private float gyroMovement = 0;
     private float gyroBase;
 
+    //Game values
+    private ArrayList<HUDElement> hudElementArray;
+    private Player player;
+    private Environment environment;
+    private Camera camera;
+
     public GameView(Context context, int screenWidth, int screenHeight) {
+
         super(context);
         surfaceHolder = getHolder();
         paint = new Paint();
-
-        SCREEN_WIDTH = screenWidth;
-        SCREEN_HEIGHT = screenHeight;
 
         spriteMap = new HashMap<Integer, Bitmap>();
         spriteMap.put(R.drawable.terry, BitmapFactory.decodeResource(context.getResources(), R.drawable.terry));
@@ -73,30 +78,29 @@ public class GameView extends SurfaceView implements Runnable {
         spriteMap.put(R.drawable.coin, BitmapFactory.decodeResource(context.getResources(), R.drawable.coin));
         spriteMap.put(R.drawable.heart, BitmapFactory.decodeResource(context.getResources(), R.drawable.heart));
         spriteMap.put(R.drawable.explosion, BitmapFactory.decodeResource(context.getResources(), R.drawable.explosion));
-
-        //levelLoader = new LevelLoader(this.getContext(), gameObjectArray, collidableArray, dynamicArray);
-
-        Random random = new Random();
-
-        for(int i = 0; i < 10; i++) {
-            Rock rock = new Rock(random.nextInt(1000),-200 * i + 100, 100, 100);
-            GameObject.getGameObjectArray().add(rock);
-        }
-        for(int i = 0; i < 10; i++) {
-            Heart heart = new Heart(random.nextInt(1000),-200 * i + 100);
-            GameObject.getGameObjectArray().add(heart);
-        }
-        for(int i = 0; i < 10; i++) {
-            DestroyableRock destroyableRock = new DestroyableRock(random.nextInt(1000),-200 * i - 2100, 100, 100);
-            GameObject.getGameObjectArray().add(destroyableRock);
-        }
-        for(int i = 0; i < 10; i++) {
-            Octo octo = new Octo(random.nextInt(1000),-200 * i - 4100);
-            GameObject.getGameObjectArray().add(octo);
-        }
+        spriteMap.put(R.drawable.fullheart, BitmapFactory.decodeResource(context.getResources(), R.drawable.fullheart));
+        spriteMap.put(R.drawable.emptyheart, BitmapFactory.decodeResource(context.getResources(), R.drawable.emptyheart));
+        spriteMap.put(R.drawable.ammunitionicon, BitmapFactory.decodeResource(context.getResources(), R.drawable.ammunitionicon));
+        spriteMap.put(R.drawable.ammunitioniconempty, BitmapFactory.decodeResource(context.getResources(), R.drawable.ammunitioniconempty));
 
         player = new Player();
-        GameObject.getGameObjectArray().add(1,player);
+        GameObject.getGameObjects().add(player);
+        environment = new Environment(player);
+        camera = new Camera(screenWidth, screenHeight, player);
+
+        hudElementArray = new ArrayList<HUDElement>();
+        HUDHeart h1 = new HUDHeart(1, 10, 10, player);
+        hudElementArray.add(h1);
+        HUDHeart h2 = new HUDHeart(2, 120, 10, player);
+        hudElementArray.add(h2);
+        HUDHeart h3 = new HUDHeart(3, 230, 10, player);
+        hudElementArray.add(h3);
+        HUDAmmunition a1 = new HUDAmmunition(1, 970, 10, player);
+        hudElementArray.add(a1);
+        HUDAmmunition a2 = new HUDAmmunition(2, 860, 10, player);
+        hudElementArray.add(a2);
+        HUDAmmunition a3 = new HUDAmmunition(3, 750, 10, player);
+        hudElementArray.add(a3);
     }
 
     @Override
@@ -111,18 +115,17 @@ public class GameView extends SurfaceView implements Runnable {
 
     @Override
     public void run() {
-        final long frameMs = 1000 / 60;
+        final long frameMillis = 1000 / 60;
         while (playing) {
-            long startMs, endMs, delayMs;
-            startMs = System.currentTimeMillis();
+            long startMillis, delayMillis;
+            startMillis = System.currentTimeMillis();
             update();
-            draw();
-            endMs = System.currentTimeMillis();
-            delayMs = frameMs - ( endMs - startMs);
-            if(delayMs < 0)
-                delayMs = 0;
+            render();
+            delayMillis = frameMillis - ( System.currentTimeMillis() - startMillis);
+            if(delayMillis < 0)
+                continue;
             try {
-                gameThread.sleep(delayMs);
+                gameThread.sleep(delayMillis);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -131,54 +134,89 @@ public class GameView extends SurfaceView implements Runnable {
 
     private void update() {
 
+        environment.check();
         player.setGyroMovement(gyroMovement);
-
-        //Update all IDynamics
-        for(int i = 0; i < GameObject.getGameObjectArray().size(); i++) {
-            GameObject go = GameObject.getGameObjectArray().get(i);
+        if(!player.isAlive())
+            end();
+        for(int i = 0; i < GameObject.getGameObjects().size(); i++) {
+            GameObject go = GameObject.getGameObjects().get(i);
             go.update();
         }
-        scrollY = player.getY() - SCREEN_HEIGHT + 500;
+        camera.update();
+        for(int i = 0; i < hudElementArray.size(); i++) {
+            HUDElement hudElement = hudElementArray.get(i);
+            hudElement.update();
+        }
     }
 
-    private void draw() {
+    private void render() {
 
         if (surfaceHolder.getSurface().isValid()) {
             canvas = surfaceHolder.lockCanvas();
-            canvas.drawColor(Color.rgb(69,160,204));
-
-            for(int i = 0; i < GameObject.getGameObjectArray().size(); i++) {
-                GameObject gameObject = GameObject.getGameObjectArray().get(i);
-                Bitmap sprite = spriteMap.get(gameObject.getDrawableId());
-                Paint paint = new Paint();
-                paint.setAlpha(gameObject.getOpacity());
-                canvas.drawBitmap(
-                    sprite,
-                    new Rect(0,0,sprite.getWidth(),sprite.getHeight()),
-                    new Rect(
-                        (int)gameObject.getX(),
-                        (int)(gameObject.getY() - scrollY),
-                        (int)(gameObject.getWidth() + gameObject.getX()),
-                        (int)(gameObject.getHeight() + gameObject.getY() - scrollY)
-                    ),
-                    paint
-                );
-                /*
-                paint.setARGB(255,255,255,255);
-                if(gameObject instanceof CollidableGameObject) {
-                    CollidableGameObject collidableGameObject = (CollidableGameObject)gameObject;
-                    canvas.drawRect(
-                            (int)collidableGameObject.collider.getX(),
-                            (int)collidableGameObject.collider.getY() - scrollY,
-                            (int)collidableGameObject.collider.getX() + collidableGameObject.collider.getWidth(),
-                            (int)collidableGameObject.collider.getY() + collidableGameObject.collider.getHeight() - scrollY,
-                            paint
-                    );
-                }
-                */
+            canvas.drawColor(Color.rgb(69,160,204)); //Clear
+            for(int i = 0; i < GameObject.getGameObjects().size(); i++) {
+                GameObject go = GameObject.getGameObjects().get(i);
+                draw(go);
+            }
+            for(int i = 0; i < hudElementArray.size(); i++) {
+                HUDElement he = hudElementArray.get(i);
+                drawFixed(he);
             }
             surfaceHolder.unlockCanvasAndPost(canvas);
         }
+    }
+
+    private void draw(GameObject go) {
+
+        Bitmap sprite = spriteMap.get(go.getDrawableId());
+        Paint paint = new Paint();
+        paint.setAlpha(go.getOpacity());
+        canvas.drawBitmap(
+            sprite,
+            new Rect(0, 0, sprite.getWidth(), sprite.getHeight()),
+            new Rect(
+                (int)(go.getX() * camera.getZoomX()),
+                (int)((go.getY() - camera.getY()) * camera.getZoomY()),
+                (int)((go.getWidth() + go.getX()) * camera.getZoomX()),
+                (int)((go.getHeight() + go.getY() - camera.getY()) * camera.getZoomY())
+            ),
+            paint
+        );
+        /*
+        paint.setARGB(255,255,255,255);
+        if(go instanceof CollidableGameObject) {
+            CollidableGameObject collidableGameObject = (CollidableGameObject)go;
+            canvas.drawRect(
+                (int)(collidableGameObject.collider.getX() * camera.getZoomX()),
+                (int)((collidableGameObject.collider.getY() - camera.getY()) * camera.getZoomY()),
+                (int)((collidableGameObject.collider.getX() + collidableGameObject.collider.getWidth()) * camera.getZoomX()),
+                (int)((collidableGameObject.collider.getY() + collidableGameObject.collider.getHeight() - camera.getY())) * camera.getZoomY(),
+                paint
+            );
+        }
+        */
+    }
+
+    private void drawFixed(HUDElement he) {
+
+        Bitmap sprite = spriteMap.get(he.getDrawableId());
+        Paint paint = new Paint();
+        canvas.drawBitmap(
+            sprite,
+            new Rect(0, 0, sprite.getWidth(), sprite.getHeight()),
+            new Rect(
+                (int)(he.getX()),
+                (int)(he.getY()),
+                (int)(he.getX() + he.getWidth()),
+                (int)(he.getY() + he.getHeight())
+            ),
+            paint
+        );
+    }
+
+    private void end() {
+        GameObject.getGameObjects().clear();
+        ((Activity) getContext()).finish();
     }
 
     public void pause() {

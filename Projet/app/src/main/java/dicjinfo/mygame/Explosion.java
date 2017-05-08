@@ -5,7 +5,7 @@ public class Explosion extends GameObject {
     int frameCount = 0;
 
     public Explosion(float x, float y) {
-        super(R.drawable.explosion, x - 50, y - 50, 200, 200);
+        super(R.drawable.explosion, x - 50, y - 50, 200, 200, 1);
     }
 
     @Override
@@ -14,7 +14,7 @@ public class Explosion extends GameObject {
         stretchY(6);
         opacity -= 13;
         if(opacity < 0)
-            gameObjectArray.remove(this);
+            destroy(this);
         frameCount++;
     }
 }

@@ -5,7 +5,7 @@ public class Wave extends GameObject {
     int frameCount = 0;
 
     public Wave(float x, float y) {
-        super(R.drawable.wave, x - 50, y - 50, 100, 100);
+        super(R.drawable.wave, x - 50, y - 50, 100, 100, 4);
     }
 
     @Override
@@ -17,7 +17,7 @@ public class Wave extends GameObject {
             opacity -= 13;
         }
         if(opacity < 0)
-            gameObjectArray.remove(this);
+            destroy(this);
         frameCount++;
     }
 }

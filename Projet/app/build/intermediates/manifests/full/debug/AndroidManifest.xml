@@ -26,9 +26,6 @@
         </activity>
 
         <uses-feature
-            android:glEsVersion="0x00020000"
-            android:required="true" />
-        <uses-feature
             android:name="android.hardware.sensor.gyroscope"
             android:required="true" />
 

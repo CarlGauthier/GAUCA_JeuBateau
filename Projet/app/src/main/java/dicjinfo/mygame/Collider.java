@@ -59,27 +59,8 @@ public class Collider {
         float dx = getCenterX() - c.getCenterX();
         float dy = getCenterY() - c.getCenterY();
         if (Math.abs(dx) < w && Math.abs(dy) < h) {
-            if(solid && c.isSolid())
-                ResolveCollision(w,h,dx,dy);
             return true;
         }
         return false;
-    }
-
-    private void ResolveCollision(float w, float h, float dx, float dy) {
-        /*
-        float wy = w * dy;
-        float hx = h * dx;
-        if (wy > hx)
-            if (wy > -hx)
-                y = gameObject.getY() + gameObject.getHeight();
-            else
-                x = gameObject.getX() - width;
-        else
-        if (wy > -hx)
-            x = gameObject.getX() + gameObject.getWidth();
-        else
-            y = gameObject.getY() - height;
-            */
     }
 }

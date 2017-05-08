@@ -68,6 +68,10 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
     }
 
     @Override
+    public void onBackPressed() {
+    }
+
+    @Override
     protected void onResume() {
 
         baseSet = false;

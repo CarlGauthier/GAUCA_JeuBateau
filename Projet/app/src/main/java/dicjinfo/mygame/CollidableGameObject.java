@@ -14,9 +14,12 @@ public abstract class CollidableGameObject extends GameObject{
 
     Collider collider;
 
-    public CollidableGameObject(int drawableId, float x, float y, float width, float height) {
-        super(drawableId, x, y, width, height);
-        this.collider = collider;
+    public CollidableGameObject() {
+
+    }
+
+    public CollidableGameObject(int drawableId, float x, float y, float width, float height, int zIndex) {
+        super(drawableId, x, y, width, height, zIndex);
     }
 
     @Override
@@ -27,9 +30,9 @@ public abstract class CollidableGameObject extends GameObject{
     }
 
     private void checkCollision() {
-        for(int i = 0; i < gameObjectArray.size(); i++)
+        for(int i = 0; i < getGameObjects().size(); i++)
         {
-            GameObject go = gameObjectArray.get(i);
+            GameObject go = getGameObjects().get(i);
             if(go instanceof CollidableGameObject && go != this) {
                 CollidableGameObject cgo = (CollidableGameObject)go;
                 Collider otherCollider = cgo.getCollider();

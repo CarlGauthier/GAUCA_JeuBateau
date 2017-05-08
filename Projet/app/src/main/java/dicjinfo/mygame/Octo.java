@@ -2,26 +2,45 @@ package dicjinfo.mygame;
 
 public class Octo extends CollidableGameObject{
 
-    int frameCount = 0;
-    Boolean animeMode = false;
+    //Sound
+    static int octoshoot;
+    static int octodead;
 
-    public Octo(float x, float y) {
-        super(R.drawable.octo, x, y, 100, 100);
+    static {
+        octoshoot = soundPool.load(GameActivity.getAppContext(), R.raw.octoshoot, 1);
+        octodead = soundPool.load(GameActivity.getAppContext(), R.raw.octodead, 1);
+    }
+
+    protected int frameCount = 0;
+    Boolean animeMode = false;
+    Player player;
+
+    public Octo() {
+        drawableId = R.drawable.octo;
+        width = 100;
+        height = 100;
         collider = new Collider(100, 100, true, this);
+        collider.update();
+        for (int i = 0; i < getGameObjects().size(); i++) {
+            if(getGameObjects().get(i) instanceof Player) {
+                player = (Player)getGameObjects().get(i);
+            }
+        }
     }
 
     @Override
     public void action() {
         emission();
         animate();
-        if(frameCount == 75)
-            frameCount = 0;
-        frameCount++;
+
     }
 
     private void emission() {
-        if(frameCount % 75 == 0)
+        if(frameCount % 75 == 0) {
             emitPopcorn();
+            frameCount = 0;
+        }
+        frameCount++;
     }
 
     private void animate() {
@@ -39,24 +58,26 @@ public class Octo extends CollidableGameObject{
     }
 
     private void emitPopcorn() {
-        GameObject player = gameObjectArray.get(1);
+
         if(player.getY() > y + 400 && player.getY() < y + 2000)
         {
             Popcorn popcorn = new Popcorn(
-                    x + width / 2 - 25,
-                    y + height / 2 - 25,
-                    (player.x - x) / 50,
-                    (player.y - y) / 50
+                x + width / 3 - 25,
+                y + height / 3 - 25,
+                (player.x - x) / 50,
+                (player.y - y) / 50
             );
-            gameObjectArray.add(popcorn);
+            emit(popcorn);
+            soundPool.play(octoshoot, 1, 1, 0, 0, 0);
         }
     }
 
     @Override
     protected void onCollision(CollidableGameObject cgo) {
         if(!(cgo instanceof Popcorn)) {
-            gameObjectArray.add(new Explosion(x, y));
-            gameObjectArray.remove(this);
+            emit(new Explosion(x, y));
+            destroy(this);
+            soundPool.play(octodead, 1, 1, 0, 0, 0);
         }
     }
 }

@@ -96,6 +96,10 @@
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emptyheart.png",
+        "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\emptyheart.png"
+    },
+    {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
@@ -112,12 +116,20 @@
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ammunitioniconempty.png",
+        "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\ammunitioniconempty.png"
+    },
+    {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\terry.png",
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\terry.png"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fullheart.png",
+        "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\fullheart.png"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -130,6 +142,10 @@
     {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\explosion.png",
         "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\explosion.png"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ammunitionicon.png",
+        "source": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\src\\main\\res\\drawable\\ammunitionicon.png"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\GAUCA_JeuBateau\\Projet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
