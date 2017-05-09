@@ -54,6 +54,8 @@ public class Collider {
     }
 
     public boolean isColliding(Collider c) {
+        update();
+        c.update();
         float w = 0.5f * (width + c.getWidth());
         float h = 0.5f * (height + c.getHeight());
         float dx = getCenterX() - c.getCenterX();

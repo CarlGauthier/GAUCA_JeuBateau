@@ -14,6 +14,8 @@ public class Section {
         @ElementList(entry="rock", inline=true, type=Rock.class),
         @ElementList(entry="destroyableRock", inline=true, type=DestroyableRock.class),
         @ElementList(entry="heart", inline=true, type=Heart.class),
+        @ElementList(entry="ammunition", inline=true, type=Ammunition.class),
+        @ElementList(entry="coin", inline=true, type=Coin.class),
         @ElementList(entry="octo", inline=true, type=Octo.class)
     })
 
@@ -24,6 +26,6 @@ public class Section {
     }
 
     Section() {
-
+        content = new ArrayList<GameObject>();
     }
 }

@@ -1,5 +1,7 @@
 package dicjinfo.mygame;
 
+import java.util.ArrayList;
+
 public class Octo extends CollidableGameObject{
 
     //Sound
@@ -20,23 +22,23 @@ public class Octo extends CollidableGameObject{
         width = 100;
         height = 100;
         collider = new Collider(100, 100, true, this);
-        collider.update();
-        for (int i = 0; i < getGameObjects().size(); i++) {
-            if(getGameObjects().get(i) instanceof Player) {
-                player = (Player)getGameObjects().get(i);
-            }
-        }
+    }
+
+    @Override
+    public void update(ArrayList<GameObject> gameObjects) {
+        if(player == null)
+            player = findPlayer(gameObjects);
+        super.update(gameObjects);
     }
 
     @Override
     public void action() {
         emission();
         animate();
-
     }
 
     private void emission() {
-        if(frameCount % 75 == 0) {
+        if(frameCount % 100 == 0) {
             emitPopcorn();
             frameCount = 0;
         }
@@ -58,18 +60,26 @@ public class Octo extends CollidableGameObject{
     }
 
     private void emitPopcorn() {
-
         if(player.getY() > y + 400 && player.getY() < y + 2000)
         {
             Popcorn popcorn = new Popcorn(
-                x + width / 3 - 25,
-                y + height / 3 - 25,
+                x + width / 4 - 25,
+                y + height / 4 - 25,
                 (player.x - x) / 50,
                 (player.y - y) / 50
             );
             emit(popcorn);
             soundPool.play(octoshoot, 1, 1, 0, 0, 0);
         }
+    }
+
+    private Player findPlayer(ArrayList<GameObject> gameObjects) {
+
+        for (GameObject go : gameObjects) {
+            if(go instanceof Player)
+                 return (Player)go;
+        }
+        return null;
     }
 
     @Override

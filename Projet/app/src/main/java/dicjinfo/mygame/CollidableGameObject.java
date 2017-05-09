@@ -2,6 +2,8 @@ package dicjinfo.mygame;
 
 import android.content.Context;
 
+import java.util.ArrayList;
+
 public abstract class CollidableGameObject extends GameObject{
 
     public Collider getCollider() {
@@ -23,16 +25,16 @@ public abstract class CollidableGameObject extends GameObject{
     }
 
     @Override
-    public void update() {
+    public void update(ArrayList<GameObject> gameObjects) {
         action();
         collider.update();
-        checkCollision();
+        checkCollision(gameObjects);
     }
 
-    private void checkCollision() {
-        for(int i = 0; i < getGameObjects().size(); i++)
+    private void checkCollision(ArrayList<GameObject> gameObjects) {
+        for(int i = 0; i < gameObjects.size(); i++)
         {
-            GameObject go = getGameObjects().get(i);
+            GameObject go = gameObjects.get(i);
             if(go instanceof CollidableGameObject && go != this) {
                 CollidableGameObject cgo = (CollidableGameObject)go;
                 Collider otherCollider = cgo.getCollider();

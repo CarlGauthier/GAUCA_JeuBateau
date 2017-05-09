@@ -12,7 +12,7 @@ public class HUDHeart extends HUDElement {
     }
 
     @Override
-    public void action() {
+    public void update() {
 
         if(player.getHealth() >= indicator)
             drawableId = R.drawable.fullheart;

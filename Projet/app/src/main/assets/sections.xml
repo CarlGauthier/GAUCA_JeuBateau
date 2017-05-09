@@ -2,41 +2,145 @@
     <sections>
         <section>
             <rock>
-                <x>0.0</x>
-                <y>0.0</y>
+                <x>-50.0</x>
+                <y>70.0</y>
             </rock>
             <rock>
-                <x>0.0</x>
-                <y>2000.0</y>
+                <x>470.0</x>
+                <y>70.0</y>
+            </rock>
+            <coin>
+                <x>580.0</x>
+                <y>80.0</y>
+            </coin>
+            <octo>
+                <x>470.0</x>
+                <y>225.0</y>
+            </octo>
+            <rock>
+                <x>320.0</x>
+                <y>340.0</y>
             </rock>
             <rock>
-                <x>650.0</x>
-                <y>250.0</y>
+                <x>785.0</x>
+                <y>340.0</y>
+            </rock>
+            <ammunition>
+                <x>20.0</x>
+                <y>1100.0</y>
+            </ammunition>
+            <rock>
+                <x>175.0</x>
+                <y>1100.0</y>
             </rock>
             <rock>
-                <x>250.0</x>
+                <x>770.0</x>
+                <y>1150.0</y>
+            </rock>
+            <heart>
+                <x>880.0</x>
+                <y>1150.0</y>
+            </heart>
+            <destroyableRock>
+                <x>40.0</x>
                 <y>1250.0</y>
+            </destroyableRock>
+            <destroyableRock>
+                <x>870.0</x>
+                <y>1270.0</y>
+            </destroyableRock>
+        </section>
+        <section>
+            <rock>
+                <x>400.0</x>
+                <y>200.0</y>
+            </rock>
+            <rock>
+                <x>460.0</x>
+                <y>380.0</y>
+            </rock>
+            <rock>
+                <x>530.0</x>
+                <y>600.0</y>
+            </rock>
+            <rock>
+                <x>670.0</x>
+                <y>780.0</y>
             </rock>
             <rock>
                 <x>800.0</x>
-                <y>1250.0</y>
+                <y>950.0</y>
+            </rock>
+            <rock>
+                <x>790.0</x>
+                <y>1050.0</y>
+            </rock>
+            <rock>
+                <x>900.0</x>
+                <y>1500.0</y>
+            </rock>
+            <rock>
+                <x>200.0</x>
+                <y>1360.0</y>
+            </rock>
+            <coin>
+                <x>820.0</x>
+                <y>280.0</y>
+            </coin>
+            <coin>
+                <x>810.0</x>
+                <y>380.0</y>
+            </coin>
+            <coin>
+                <x>830.0</x>
+                <y>480.0</y>
+            </coin>
+        </section>
+        <section>
+            <rock>
+                <x>140.0</x>
+                <y>260.0</y>
+            </rock>
+            <rock>
+                <x>285.0</x>
+                <y>220.0</y>
+            </rock>
+            <rock>
+                <x>400.0</x>
+                <y>230.0</y>
+            </rock>
+            <rock>
+                <x>620.0</x>
+                <y>210.0</y>
+            </rock>
+            <rock>
+                <x>1000.0</x>
+                <y>220.0</y>
+            </rock>
+            <rock>
+                <x>250.0</x>
+                <y>500.0</y>
+            </rock>
+            <rock>
+                <x>285.0</x>
+                <y>1015.0</y>
+            </rock>
+            <rock>
+                <x>585.0</x>
+                <y>1015.0</y>
+            </rock>
+            <rock>
+                <x>1000.0</x>
+                <y>1500.0</y>
             </rock>
             <destroyableRock>
-                <x>750.0</x>
-                <y>500.0</y>
+                <x>385.0</x>
+                <y>1400.0</y>
             </destroyableRock>
-            <destroyableRock>
-                <x>750.0</x>
-                <y>600.0</y>
-            </destroyableRock>
-            <heart>
-                <x>750.0</x>
-                <y>250.0</y>
-            </heart>
-            <octo>
-                <x>400.0</x>
-                <y>250.0</y>
-            </octo>
+            <ammunition>
+                <x>385.0</x>
+                <y>1015.0</y>
+            </ammunition>
         </section>
     </sections>
 </sectionPool>

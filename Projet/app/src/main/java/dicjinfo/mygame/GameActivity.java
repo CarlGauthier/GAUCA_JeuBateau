@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 
 public class GameActivity extends AppCompatActivity implements SensorEventListener{
 

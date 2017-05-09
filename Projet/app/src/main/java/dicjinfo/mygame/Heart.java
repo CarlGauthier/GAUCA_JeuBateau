@@ -2,8 +2,15 @@ package dicjinfo.mygame;
 
 public class Heart extends CollidableGameObject {
 
+    static int heartpickup;
+
+    static {
+        heartpickup = soundPool.load(GameActivity.getAppContext(), R.raw.heartpickup, 1);
+    }
+
     int frameCount = 0;
     Boolean animeMode = false;
+    boolean active = true;
 
     public Heart() {
         drawableId = R.drawable.heart;
@@ -31,10 +38,11 @@ public class Heart extends CollidableGameObject {
     @Override
     protected void onCollision(CollidableGameObject cgo) {
 
-        if((cgo instanceof Player)) {
+        if((cgo instanceof Player && active)) {
             ((Player)cgo).increaseHealth();
             destroy(this);
-            //soundPool.play(rockbreak, 1, 1, 0, 0, 0);
+            soundPool.play(heartpickup, 1, 1, 0, 0, 0);
+            active = false;
         }
     }
 }

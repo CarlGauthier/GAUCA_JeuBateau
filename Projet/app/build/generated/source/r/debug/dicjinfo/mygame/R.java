@@ -1620,23 +1620,24 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
         public static final int abc_textfield_search_material=0x7f02004a;
-        public static final int ammunitionicon=0x7f02004b;
-        public static final int ammunitioniconempty=0x7f02004c;
-        public static final int canonball=0x7f02004d;
-        public static final int coin=0x7f02004e;
-        public static final int destroyablerock=0x7f02004f;
-        public static final int emptyheart=0x7f020050;
-        public static final int explosion=0x7f020051;
-        public static final int fullheart=0x7f020052;
-        public static final int heart=0x7f020053;
-        public static final int notification_template_icon_bg=0x7f02005b;
-        public static final int ocean=0x7f020054;
-        public static final int octo=0x7f020055;
-        public static final int popcorn=0x7f020056;
-        public static final int rock=0x7f020057;
-        public static final int shark=0x7f020058;
-        public static final int terry=0x7f020059;
-        public static final int wave=0x7f02005a;
+        public static final int ammunition=0x7f02004b;
+        public static final int ammunitionicon=0x7f02004c;
+        public static final int ammunitioniconempty=0x7f02004d;
+        public static final int canonball=0x7f02004e;
+        public static final int coin=0x7f02004f;
+        public static final int destroyablerock=0x7f020050;
+        public static final int emptyheart=0x7f020051;
+        public static final int explosion=0x7f020052;
+        public static final int fullheart=0x7f020053;
+        public static final int heart=0x7f020054;
+        public static final int notification_template_icon_bg=0x7f02005c;
+        public static final int ocean=0x7f020055;
+        public static final int octo=0x7f020056;
+        public static final int popcorn=0x7f020057;
+        public static final int rock=0x7f020058;
+        public static final int shark=0x7f020059;
+        public static final int terry=0x7f02005a;
+        public static final int wave=0x7f02005b;
     }
     public static final class id {
         public static final int action0=0x7f0d0050;
@@ -1787,9 +1788,12 @@ containing a value of this type.
         public static final int boathit=0x7f060000;
         public static final int canonblast=0x7f060001;
         public static final int canonimpact=0x7f060002;
-        public static final int octodead=0x7f060003;
-        public static final int octoshoot=0x7f060004;
-        public static final int rockbreak=0x7f060005;
+        public static final int coinpickup=0x7f060003;
+        public static final int heartpickup=0x7f060004;
+        public static final int octodead=0x7f060005;
+        public static final int octoshoot=0x7f060006;
+        public static final int reload=0x7f060007;
+        public static final int rockbreak=0x7f060008;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;

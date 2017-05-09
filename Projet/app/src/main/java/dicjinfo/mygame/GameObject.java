@@ -13,14 +13,12 @@ import org.simpleframework.xml.Element;
 @Element
 public abstract class GameObject {
 
-    public static ArrayList<GameObject> getGameObjects() {
-        return gameObjects;
-    }
-
-    static private ArrayList<GameObject> gameObjects;
+    static private ArrayList<GameObject> emitQueue;
+    static private ArrayList<GameObject> destroyQueue;
     static protected SoundPool soundPool;
     static {
-        gameObjects = new ArrayList<GameObject>();
+        emitQueue = new ArrayList<GameObject>();
+        destroyQueue = new ArrayList<GameObject>();
         soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
     }
     protected int drawableId;
@@ -28,7 +26,19 @@ public abstract class GameObject {
     @Element
     protected float x, y;
     protected float width, height;
-    private int zIndex;
+    protected int zIndex;
+
+    public static ArrayList<GameObject> getDestroyQueue() {
+        return destroyQueue;
+    }
+
+    public static SoundPool getSoundPool() {
+        return soundPool;
+    }
+
+    public static ArrayList<GameObject> getEmitQueue() {
+        return emitQueue;
+    }
 
     public float getY() {
         return y;
@@ -82,14 +92,14 @@ public abstract class GameObject {
     }
 
     protected void emit(GameObject go) {
-        gameObjects.add(go);
+        emitQueue.add(go);
     }
 
     protected void destroy(GameObject go) {
-        gameObjects.remove(go);
+        destroyQueue.add(go);
     }
 
-    public void update() {
+    public void update(ArrayList<GameObject> gameObjects) {
         action();
     }
 

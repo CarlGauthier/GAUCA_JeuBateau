@@ -16,8 +16,10 @@ public class Wave extends GameObject {
         if(frameCount > 25) {
             opacity -= 13;
         }
-        if(opacity < 0)
+        if(opacity < 0) {
+            opacity = 0;
             destroy(this);
+        }
         frameCount++;
     }
 }

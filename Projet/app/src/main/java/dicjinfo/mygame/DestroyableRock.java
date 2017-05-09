@@ -19,7 +19,6 @@ public class DestroyableRock extends CollidableGameObject {
         width = 100;
         height = 120;
         collider = new Collider(80, 70, true, this);
-        collider.update();
     }
 
     @Override

@@ -2,8 +2,6 @@ package dicjinfo.mygame;
 
 public class Explosion extends GameObject {
 
-    int frameCount = 0;
-
     public Explosion(float x, float y) {
         super(R.drawable.explosion, x - 50, y - 50, 200, 200, 1);
     }
@@ -13,8 +11,9 @@ public class Explosion extends GameObject {
         stretchX(6);
         stretchY(6);
         opacity -= 13;
-        if(opacity < 0)
+        if(opacity < 0) {
+            opacity = 0;
             destroy(this);
-        frameCount++;
+        }
     }
 }

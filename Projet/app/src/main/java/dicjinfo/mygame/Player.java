@@ -58,6 +58,14 @@ public class Player extends CollidableGameObject {
         }
     }
 
+    public void reload() {
+        ammunition = 3;
+    }
+
+    public void coinPickup() {
+        score += 100;
+    }
+
     public Player() {
         super(R.drawable.terry, 400, 0, 125, 260, 3);
         collider = new Collider(125, 222, true, this);
@@ -80,6 +88,9 @@ public class Player extends CollidableGameObject {
             waveEmission();
         if(health == 0) {
             die();
+        }
+        if(frameCount % 5 == 0) {
+            score++;
         }
     }
 
@@ -140,7 +151,7 @@ public class Player extends CollidableGameObject {
     private void waveEmission() {
         if(frameCount > 10) {
             Wave wave = new Wave(x + width / 2, y + height / 2);
-            getGameObjects().add(getGameObjects().indexOf(this), wave);
+            emit(wave);
             frameCount = 0;
         }
         frameCount++;

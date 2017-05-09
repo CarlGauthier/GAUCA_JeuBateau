@@ -12,7 +12,7 @@ public class HUDAmmunition extends HUDElement{
     }
 
     @Override
-    public void action() {
+    public void update() {
 
         if(player.getAmmunition() >= indicator)
             drawableId = R.drawable.ammunitionicon;
